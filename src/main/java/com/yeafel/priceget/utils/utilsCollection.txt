@@ -1,0 +1,2349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+    我的收藏_网易BUFF饰品交易平台
+</title>
+    <meta property="og:image" content="https://g.fp.ps.netease.com/market/file/6391b1f3672a526e9f383c56lhtp2qta04">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="csrf_token" content="IjQ5YTExZmZlMGQ2Yjc0YjE4MWY3NGMzMmM0NDNiNzExOTEzMjc2M2Ei.GQJHjA.ouRScGCtSBxAXklucjfeKyiGGQE">
+
+    <meta name="keywords" content="网易buff饰品交易,饰品交易,网易buff,dota2饰品交易,刀塔饰品交易,csgo饰品交易,cs2饰品交易,cs2皮肤,电竞饰品交易,rust饰品交易,超凡先锋交易"/>
+    <meta name="description" content="网易BUFF提供最便捷安全的CS2，DOTA2游戏饰品交易服务，千万玩家的首选专业交易平台"/>
+
+    <meta name="applicable-device" content="pc,mobile"/>
+    <meta name="baidu-site-verification" content="code-tq5EYRc3Ue" />
+    <link rel='shortcut icon' href='//g.fp.ps.netease.com/market/file/59b156975e6027bce06e8f6ceTyFGdsj' />
+
+    <link rel="stylesheet" href="/static/assets/main.css?7f2326db">
+
+
+    <script type="text/javascript">
+
+        window.g = {"appid": 730, "captcha_id": "294f327bcc29451786c64c6e672651c8", "currency": {"code": "CNY", "default": "CNY", "desc": "\u4eba\u6c11\u5e01", "rate_base_cny": 1.0, "rate_base_usd": 7.2391, "symbol": "\u00a5"}, "default_lang": "zh", "env": "prod", "game": "csgo", "hide_appbar": false, "is_partner_appid": false, "item_detail_popup_appids": [730, 1], "locale": "zh-Hans", "partner_appids": [1], "switch_ejzb": false, "urs_unite_login_terms": [{"name": "\u300a\u7528\u6237\u534f\u8bae\u300b", "txt": "\u300a\u7528\u6237\u534f\u8bae\u300b", "url": "https://buff.163.com/static/help/user_agreement.html"}, {"name": "\u300a\u9690\u79c1\u653f\u7b56\u300b", "txt": "\u300a\u9690\u79c1\u653f\u7b56\u300b", "url": "https://buff.163.com/static/help/privacy_policy.html"}, {"name": "\u300a\u513f\u7ae5\u4e2a\u4eba\u4fe1\u606f\u4fdd\u62a4\u89c4\u5219\u53ca\u76d1\u62a4\u4eba\u987b\u77e5\u300b", "txt": "\u300a\u513f\u7ae5\u4e2a\u4eba\u4fe1\u606f\u4fdd\u62a4\u89c4\u5219\u53ca\u76d1\u62a4\u4eba\u987b\u77e5\u300b", "url": "https://buff.163.com/static/help/child_protection.html"}, {"name": "\u300a\u7b2c\u4e09\u65b9\u670d\u52a1\u5171\u4eab\u6e05\u5355\u300b", "txt": "\u300a\u7b2c\u4e09\u65b9\u670d\u52a1\u5171\u4eab\u6e05\u5355\u300b", "url": "https://buff.163.com/static/help/third_party.html"}], "user": {"avatar": "https://market.fp.ps.netease.com/file/65f1cbe0c77059041cd76fed5hQdzruc05", "id": "U1074831596", "mobile": "177****6552", "nickname": "U95077631720", "partner_role_info": {}, "steamid": 76561199521038119}, "webview_title": "\u7f51\u6613BUFF\u9970\u54c1\u4ea4\u6613\u5e73\u53f0"};
+        window.WebViewInfo = {"webview_app_version": null, "webview_app_version_code": null, "webview_from": null};
+        window.ENV = "prod";
+    </script>
+
+    <script src="/static/assets/lib.js?581d81fb"></script>
+
+
+    <script src="/static/assets/main.js?49f6fe3e"></script>
+
+    <style>
+        @media (prefers-color-scheme: dark){
+            .news-detail-footer {
+                color: rgba(235, 235, 245, 0.6) !important;
+            }
+        }
+
+        .j_search-result-list {
+            background: #2D2F3E !important;
+        }
+
+        .custom_sticker_search_input-result-list {
+            background: #fff !important;
+        }
+
+        .j_search-result-list, .custom_sticker_search_input-result-list {
+            z-index: 100 !important;
+            margin: 0;
+            border: 1px solid rgba(0,0,0,.12);
+            padding: 0;
+            box-sizing: border-box;
+            max-height: 320px;
+	        overflow-y: auto;
+	        color: #000 !important;
+	        list-style: none;
+	        box-shadow: 0 2px 2px rgba(0,0,0,.16)
+	    }[data-position=below] .j_search-result-list, [data-position=below] .custom_sticker_search_input-result-list {
+	        margin-top: -1px;
+	        border-top-color: transparent;
+	        border-radius: 0 0 2px 2px;
+	        padding-bottom: 8px;
+        }[data-position=above] .j_search-result-list, [data-position=above] .custom_sticker_search_input-result-list {
+	        margin-bottom: -1px;
+	        border-bottom-color: transparent;
+	        border-radius: 2px 2px 0 0;
+	        padding-top: 8px;
+        }
+        .autocomplete-result {
+            cursor: default;
+	        padding: 12px 4px 12px 4px;
+	        font-size: 12px;
+	        text-align: left;
+	        white-space:nowrap;
+        }
+        .j_search-result-list .autocomplete-result {
+            color: #fff !important;
+        }
+        .j_search-result-list .autocomplete-result:hover,
+        .j_search-result-list .autocomplete-result[aria-selected=true] {
+            background-color: #3A455A;
+        }
+
+        .custom_sticker_search_input-result-list .autocomplete-result {
+            color: #515151 !important;
+        }
+        .custom_sticker_search_input-result-list .autocomplete-result:hover,
+        .custom_sticker_search_input-result-list .autocomplete-result[aria-selected=true] {
+            background-color: #F8F8F8;
+        }
+
+
+        .card_banzhuan li a img {
+            width: unset!important;
+        }
+        .banzhuan .with-gallery img {
+            border: 0;
+            position: relative;
+        }
+        body.banzhuan {
+            background-image: url(/static/images/site/header-bg_badlanders.jpg);
+        }
+
+        .list_card_badlanders .tagBox {
+            position: absolute;
+            right: 8px;
+            top: 0px;
+        }
+        .list_card_badlanders .tagBoxB {
+            position: absolute;
+            top: 102px;
+            right: 6px;
+        }
+        .list-pager-time-range-tips {
+            padding-bottom: 30px;
+        }
+    </style>
+
+    <script type="application/javascript">
+        function load_script_with_timeout(src, timeout, onerror, onload) {
+            var script = document.createElement('script');
+            script.src = src;
+            script.onload = function() {
+                if(onload) {
+                    onload();
+                }
+                clearTimeout(timer);
+            };
+            script.onerror = onerror || function() {};
+
+            if(timeout !== undefined) {
+                var timer = setTimeout(function() {
+                    script.onload = function() {};
+                    script.onerror = function() {};
+                    load_local_message();
+                }, timeout);
+            }
+
+            document.body.appendChild(script);
+       }
+
+       var onload_callback = function() {
+
+        }
+
+        var load_local_message = function() {
+            load_script_with_timeout('/static/urs/message.js', undefined, undefined, onload_callback)
+        }
+
+        $(document).ready(function(){
+            load_script_with_timeout('https://urswebzj.nosdn.127.net/webzj_cdn101/message.js', 5000, function() {
+                load_local_message();
+            }, onload_callback);
+        });
+    </script>
+</head>
+
+<body class=" csgo  ">
+    <div class="header l_Clearfix">
+    <div class="header-cont l_Layout">
+        <div class="logo"><a href="/?game=csgo"><img src="/static/images/site/logo.png" width="77" height="21"></a></div>
+        <div class="nav">
+            <ul>
+
+                <li class=""><a href="/?game=csgo"><strong>首页</strong></a></li>
+
+                <li class=""><a href="/market/csgo"><strong>饰品市场</strong></a></li>
+
+
+
+                    <li class=""><a href="/news/"><strong>游戏资讯</strong></a></li>
+
+
+
+
+
+            </ul>
+        </div>
+        <div class="nav nav_entries">
+            <div class="header-switcher j_drop-handler" data-current="zh-Hans" id="j_lang-switcher" style="display: none;">
+                <h3><i class="icon icon_lang_zh-Hans"></i><i class="icon icon_arr_light"></i></h3>
+                <div class="j_drop">
+                    <p data-value="zh-Hans"><i class="icon icon_lang_zh-Hans"></i>中文(简体)</p>
+                    <p data-value="en"><i class="icon icon_lang_en"></i>English</p>
+                    <p data-value="es"><i class="icon icon_lang_es"></i>Español</p>
+                    <p data-value="pt"><i class="icon icon_lang_pt"></i>Português</p>
+                    <p data-value="ru"><i class="icon icon_lang_ru"></i>Русский</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="j_drop-handler user-info   ">
+                <a href="/user-center/asset/recharge/">
+                    <div class="user-avatar-wrapper vip-icon--large no-border">
+                        <img src="https://market.fp.ps.netease.com/file/65f1cbe0c77059041cd76fed5hQdzruc05?fop=imageView/2/w/32/h/32" width="32" height="32" class="user-avatar" onerror="this.src='https://g.fp.ps.netease.com/market/file/5c4994af8b7427196aca7aeblbTq8TJS02';this.onerror=null">
+                    </div>
+
+                        <strong class="user-name" id="navbar-user-name">U95077631720<i class="icon icon_vip_lv2"></i></strong>
+
+                </a>
+                <div class="drop-store j_drop">
+                    <div class="store-user">
+                        <div class="user-avatar-wrapper no-border">
+                            <img src="https://market.fp.ps.netease.com/file/65f1cbe0c77059041cd76fed5hQdzruc05?fop=imageView/2/w/54/h/54" onerror="this.src='https://g.fp.ps.netease.com/market/file/5c4994af8b7427196aca7aeblbTq8TJS02?fop=imageView/2/w/54/h/54';this.onerror=null">
+                        </div>
+                        <div class="user-name">
+                            <h3>U95077631720</h3>
+
+                            <i class="icon icon_vip_lv2"></i>
+
+                        </div>
+                        <p>
+
+                            <a href="/account/logout" class="f_12px">退出登录</a>
+                        </p>
+                    </div>
+                    <div class="store-account">
+                        <h4>余额 <span class="f_Strong" id="navbar-cash-amount">¥ 24<small>.37</small></span></h4>
+                        <p><a href="/user-center/asset/recharge/" class="i_Btn i_Btn_small">充值</a><a href="/user-center/asset/withdraw/" class="i_Btn i_Btn_sub i_Btn_small">提现</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="login-user message">
+                <span><a href="/user-center/message?type=trade"><i class="icon icon_message"></i></a></span>
+                <i class="icon icon_new"></i>
+            </div>
+            <div class="game-select"  style="margin-right: -20px;">
+                <div class="header-switcher j_drop-handler global-games" id="j_game-switcher" data-current="csgo">
+                    <h3 style="padding-left: 18px;"><strong></strong><i class="icon icon_arr_light"></i></h3>
+                    <div class="j_drop">
+
+                            <p data-value="csgo"><img src="/static/images/games/logo_csgo2.png" class="sel-ico" data-game="csgo">CS2<span class="tag_status" style="display: none;"></span></p>
+
+                            <p data-value="dota2"><img src="/static/images/games/logo_dota_black.png" class="sel-ico" data-game="dota2">DOTA2<span class="tag_status" style="display: none;"></span></p>
+
+                            <p data-value="banzhuan"><img src="/static/images/games/logo_badlanders_black.png" class="sel-ico" data-game="banzhuan">超凡先锋<span class="tag_status" style="display: none;"></span></p>
+
+                    </div>
+                </div>
+            </div>
+            <ul>
+                <li class=" j_drop-handler" id="j_mybackpack">
+
+                    <a href="/market/steam_inventory?game=csgo"><strong>我的库存</strong></a>
+
+                    <i class="icon icon_new"></i>
+                </li>
+                <li class=" j_drop-handler" id="j_myselling">
+
+                    <a href="/market/sell_order/on_sale?game=csgo&mode=2,5"><strong>我的出售</strong></a>
+
+                    <i class="icon icon_new"></i>
+                </li>
+                <li class="" id="j_mybuying">
+                    <a href="/market/buy_order/wait_supply?game=csgo"><strong>我的求购</strong></a>
+                    <i class="icon icon_new"></i>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="loading-cover">
+    <div class="spinner loading">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+
+
+        <div class="blank20"></div>
+
+    <div class="l_Layout">
+        <div class="cont_panel black">
+            <div class="my-thum user-info">
+                <div class="user-avatar-wrapper">
+                    <img src="https://market.fp.ps.netease.com/file/65f1cbe0c77059041cd76fed5hQdzruc05?fop=imageView/2/w/70/h/70" width="70" height="70" onerror="this.src='https://g.fp.ps.netease.com/market/file/5c4994af8b7427196aca7aeblbTq8TJS02';this.onerror=null">
+                </div>
+
+
+                <h3 class="user-name" data-profile-nickname="true">U95077631720
+
+                    <i class="icon icon_vip_lv2"></i>
+
+                </h3>
+
+                <div class="clear"></div>
+            </div>
+            <div class="my-menu">
+                <ul>
+
+                    <li ><a href="/user-center/asset/recharge/"><i class="icon icon_menu icon_menu_wallet"></i>我的钱包</a></li>
+                    <li ><a href="/user-center/profile"><i class="icon icon_menu icon_menu_setting"></i>帐号设置</a></li>
+                    <li ><a href="/user-center/message/?type=trade"><i class="icon icon_menu icon_menu_msg"></i>消息中心<i class="icon icon_new"></i></a></li>
+                    <li class="on"><a href="/user-center/bookmark/sell_order?game=csgo&from=nav"><i class="icon icon_menu icon_menu_fav"></i>我的收藏</a></li>
+                    <li  style="display:none;"><a href="/user-center/invite"><i class="icon icon_menu icon_menu_invite"></i>邀请好友</a></li>
+
+                    <li ><a href="/user-center/my_benefit"><i class="icon icon_menu icon_menu_coupon"></i>权益卡券</a></li>
+
+
+                        <li ><a href="/user-center/contribute?state=draft"><i class="icon icon_menu icon_menu_contribute"></i>我的投稿<i class="icon icon_new"></i></a></li>
+
+                    <li ><a href="/user-center/feedback/"><i class="icon icon_menu icon_menu_feedback"></i>问题反馈</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="cont_main">
+
+
+
+
+<div class="g-w940">
+    <div class="g-market-header wiki-select black">
+        <div class="cont-tab">
+            <ul>
+                <li class=""><a href="/user-center/bookmark/sell_order?game=csgo">饰品关注<i class="icon icon_top_cur"></i></a></li>
+                <li class="on"><a href="/user-center/bookmark/goods?game=csgo">饰品收藏<i class="icon icon_top_cur"></i></a></li>
+                <li class=""><a href="/user-center/bookmark/article?game=csgo">资讯收藏<i class="icon icon_top_cur"></i></a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+
+
+<div class="criteria ">
+    <div id="search-category" class="csgo-Select w-Select-Multi" style="visibility: visible;">
+        <h3>筛选</h3>
+        <i class="icon icon_drop"></i>
+        <ul>
+            <li>
+                <h6 value="">不限</h6>
+            </li>
+
+            <li>
+                <h6 value="knife">匕首</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="weapon_knife_butterfly">蝴蝶刀</p>
+
+                    <p value="weapon_knife_m9_bayonet">M9 刺刀</p>
+
+                    <p value="weapon_knife_karambit">爪子刀</p>
+
+                    <p value="weapon_knife_kke">廓尔喀刀</p>
+
+                    <p value="weapon_knife_skeleton">骷髅匕首</p>
+
+                    <p value="weapon_bayonet">刺刀</p>
+
+                    <p value="weapon_knife_widowmaker">锯齿爪刀</p>
+
+                    <p value="weapon_knife_outdoor">流浪者匕首</p>
+
+                    <p value="weapon_knife_flip">折叠刀</p>
+
+                    <p value="weapon_knife_stiletto">短剑</p>
+
+                    <p value="weapon_knife_css">海豹短刀</p>
+
+                    <p value="weapon_knife_ursus">熊刀</p>
+
+                    <p value="weapon_knife_tactical">猎杀者匕首</p>
+
+                    <p value="weapon_knife_cord">系绳匕首</p>
+
+                    <p value="weapon_knife_canis">求生匕首</p>
+
+                    <p value="weapon_knife_falchion">弯刀</p>
+
+                    <p value="weapon_knife_push">暗影双匕</p>
+
+                    <p value="weapon_knife_survival_bowie">鲍伊猎刀</p>
+
+                    <p value="weapon_knife_gut">穿肠刀</p>
+
+                    <p value="weapon_knife_gypsy_jackknife">折刀</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="hands">手套</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="weapon_sport_gloves">运动手套</p>
+
+                    <p value="weapon_specialist_gloves">专业手套</p>
+
+                    <p value="weapon_moto_gloves">摩托手套</p>
+
+                    <p value="weapon_driver_gloves">驾驶手套</p>
+
+                    <p value="weapon_hand_wraps">手部束带</p>
+
+                    <p value="weapon_brokenfang_gloves">狂牙手套</p>
+
+                    <p value="weapon_hydra_gloves">九头蛇手套</p>
+
+                    <p value="weapon_bloodhound_gloves">血猎手套</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="rifle">步枪</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="weapon_ak47">AK-47</p>
+
+                    <p value="weapon_awp">AWP</p>
+
+                    <p value="weapon_m4a1_silencer">M4A1 消音版</p>
+
+                    <p value="weapon_m4a1">M4A4</p>
+
+                    <p value="weapon_aug">AUG</p>
+
+                    <p value="weapon_sg556">SG 553</p>
+
+                    <p value="weapon_famas">法玛斯</p>
+
+                    <p value="weapon_galilar">加利尔 AR</p>
+
+                    <p value="weapon_ssg08">SSG 08</p>
+
+                    <p value="weapon_scar20">SCAR-20</p>
+
+                    <p value="weapon_g3sg1">G3SG1</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="pistol">手枪</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="weapon_deagle">沙漠之鹰</p>
+
+                    <p value="weapon_usp_silencer">USP 消音版</p>
+
+                    <p value="weapon_glock">格洛克 18 型</p>
+
+                    <p value="weapon_hkp2000">P2000</p>
+
+                    <p value="weapon_p250">P250</p>
+
+                    <p value="weapon_fiveseven">FN57</p>
+
+                    <p value="weapon_revolver">R8 左轮手枪</p>
+
+                    <p value="weapon_tec9">Tec-9</p>
+
+                    <p value="weapon_elite">双持贝瑞塔</p>
+
+                    <p value="weapon_cz75a">CZ75 自动手枪</p>
+
+                    <p value="weapon_zeus">电击枪</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="smg">微型冲锋枪</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="weapon_mp9">MP9</p>
+
+                    <p value="weapon_mac10">MAC-10</p>
+
+                    <p value="weapon_ump45">UMP-45</p>
+
+                    <p value="weapon_p90">P90</p>
+
+                    <p value="weapon_mp7">MP7</p>
+
+                    <p value="weapon_bizon">PP-野牛</p>
+
+                    <p value="weapon_mp5sd">MP5-SD</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="shotgun">霰弹枪</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="weapon_xm1014">XM1014</p>
+
+                    <p value="weapon_mag7">MAG-7</p>
+
+                    <p value="weapon_sawedoff">截短霰弹枪</p>
+
+                    <p value="weapon_nova">新星</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="machinegun">机枪</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="weapon_m249">M249</p>
+
+                    <p value="weapon_negev">内格夫</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="sticker">印花</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+
+
+                    <p value="sticker_tournament22">24哥本哈根</p>
+
+                    <p value="crate_sticker_pack_community_2024_capsule">伏击</p>
+
+                    <p value="sticker_tournament21">23巴黎</p>
+
+                    <p value="crate_sticker_pack_community2022_capsule">间谍</p>
+
+                    <p value="sticker_tournament20">22里约</p>
+
+                    <p value="crate_sticker_pack_csgo10_capsule">十周年</p>
+
+                    <p value="sticker_tournament19">22安特卫普</p>
+
+                    <p value="crate_sticker_pack_spring2022_capsule">作战室</p>
+
+                    <p value="crate_sticker_pack_bf2042_capsule_lootlist">战地2042</p>
+
+                    <p value="sticker_tournament18">21斯德哥尔摩</p>
+
+                    <p value="crate_sticker_pack_riptide_surfshop_lootlist">激流冲浪店</p>
+
+                    <p value="crate_sticker_pack_op_riptide_capsule_lootlist">激流大行动</p>
+
+                    <p value="sticker_community2021">2021社区</p>
+
+                    <p value="poorly_drawn">Poorly Drawn</p>
+
+                    <p value="sticker_2020rmr">2020RMR</p>
+
+                    <p value="sticker_broken_fang">狂牙大行动</p>
+
+                    <p value="sticker_recoil">压枪</p>
+
+                    <p value="warhammer_sticker">战锤40K</p>
+
+                    <p value="alyx_sticker_capsule">半衰期:Alyx</p>
+
+                    <p value="halo_capsule">光环</p>
+
+                    <p value="shattered_web">裂网大行动</p>
+
+                    <p value="cs20_capsule">CS20</p>
+
+                    <p value="2019_StarLadder_Berlin_Major">19年柏林</p>
+
+                    <p value="crate_sticker_pack_chicken_capsule_lootlist">小鸡</p>
+
+                    <p value="crate_sticker_pack_feral_predators_capsule_lootlist">猛兽</p>
+
+                    <p value="sticker_tournament15">19年卡托</p>
+
+                    <p value="skill_groups_capsule">段位印花</p>
+
+                    <p value="sticker_tournament14">18年伦敦</p>
+
+                    <p value="sticker_tournament13">18年波士顿</p>
+
+                    <p value="sticker_tournament12">17年克拉科夫</p>
+
+                    <p value="sticker_tournament11">17年亚特兰大</p>
+
+                    <p value="sticker_tournament10">16年科隆</p>
+
+                    <p value="sticker_tournament9">16年哥伦布</p>
+
+                    <p value="sticker_tournament8">15年DH</p>
+
+                    <p value="sticker_tournament7">15年科隆</p>
+
+                    <p value="sticker_tournament6">15年卡托维兹</p>
+
+                    <p value="sticker_tournament5">14年DH</p>
+
+                    <p value="sticker_tournament4">14年科隆</p>
+
+                    <p value="sticker_tournament3">14年卡托维兹</p>
+
+                    <p value="crate_sticker_pack_comm2018_01_capsule_lootlist">18年社区印花</p>
+
+                    <p value="crate_sticker_pack01">1号印花</p>
+
+                    <p value="crate_sticker_pack02">2号印花</p>
+
+                    <p value="crate_sticker_pack_enfu_capsule_lootlist">Enfu印花</p>
+
+                    <p value="crate_sticker_pack_illuminate_capsule_01_lootlist">点亮中国1号</p>
+
+                    <p value="crate_sticker_pack_illuminate_capsule_02_lootlist">点亮中国2号</p>
+
+                    <p value="crate_sticker_pack_community01">1号社区印花</p>
+
+                    <p value="crate_sticker_pack_bestiary_capsule_lootlist">动物寓言印花</p>
+
+                    <p value="crate_sticker_pack_slid3_capsule_lootlist">Slid3印花</p>
+
+                    <p value="crate_sticker_pack_sugarface_capsule_lootlist">糖果脸谱印花</p>
+
+                    <p value="crate_sticker_pack_pinups_capsule_lootlist">海报女郎印花</p>
+
+                    <p value="crate_sticker_pack_team_roles_capsule_lootlist">团队定位印花</p>
+
+                    <p value="sticker_other">其他印花</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="type_customplayer">探员</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="agent_team_ct">反恐精英</p>
+
+                    <p value="agent_team_t">恐怖分子</p>
+
+                </div>
+
+            </li>
+
+            <li>
+                <h6 value="other">其他</h6>
+
+                <i class="icon icon_drop"></i>
+                <div>
+
+
+
+
+                    <p value="csgo_type_weaponcase">武器箱</p>
+
+                    <p value="csgo_type_musickit">音乐盒</p>
+
+                    <p value="csgo_type_tool">工具</p>
+
+                    <p value="csgo_type_spray">涂鸦</p>
+
+                    <p value="csgo_type_ticket">通行证</p>
+
+                    <p value="csgo_type_collectible">收藏品</p>
+
+                    <p value="csgo_tool_patch">布章</p>
+
+                    <p value="csgo_tool_gifttag">礼物</p>
+
+                    <p value="csgo_tool_weaponcase_keytag">钥匙</p>
+
+                </div>
+
+            </li>
+
+        </ul>
+    </div>
+    <div id="search-rarity" class="w-Select-Multi c-Search csgo-Select" name="rarity" style="visibility: visible;">
+        <h3>品质</h3>
+        <i class="icon icon_drop"></i>
+        <ul>
+            <li>
+                <h6 value="">不限</h6>
+            </li>
+
+
+
+                    <li class="rarity_contraband colored_tag">
+                        <h6 value="contraband">违禁</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_ancient_weapon colored_tag">
+                        <h6 value="ancient_weapon">隐秘</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_legendary_weapon colored_tag">
+                        <h6 value="legendary_weapon">保密</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_mythical_weapon colored_tag">
+                        <h6 value="mythical_weapon">受限</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_rare_weapon colored_tag">
+                        <h6 value="rare_weapon">军规级</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_uncommon_weapon colored_tag">
+                        <h6 value="uncommon_weapon">工业级</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_common_weapon colored_tag">
+                        <h6 value="common_weapon">消费级</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_ancient colored_tag">
+                        <h6 value="ancient">非凡</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_mythical colored_tag">
+                        <h6 value="mythical">卓越</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_legendary colored_tag">
+                        <h6 value="legendary">奇异</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_rare colored_tag">
+                        <h6 value="rare">高级</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_common colored_tag">
+                        <h6 value="common">普通级</h6>
+                    </li>
+
+                </li>
+
+
+
+                    <li class="rarity_agent_quality_character colored_tag">
+                        <h6>探员品质 </h6>
+                        <i class="icon icon_drop"></i>
+                        <div>
+
+                                <p class="rarity_rare_character"
+                                   value="rare_character">高级</p>
+
+                                <p class="rarity_mythical_character"
+                                   value="mythical_character">卓越</p>
+
+                                <p class="rarity_legendary_character"
+                                   value="legendary_character">非凡</p>
+
+                                <p class="rarity_ancient_character"
+                                   value="ancient_character">大师</p>
+
+                        </div>
+                    </li>
+
+                </li>
+
+        </ul>
+    </div>
+    <div id="search-quality" class="w-Select c-Search csgo-Select" style="visibility: visible;" name="quality">
+        <h3>类别</h3>
+        <i class="icon icon_drop"></i>
+        <ul>
+            <li>不限</li>
+
+        <li value="normal" class="quality_normal colored_tag">普通</li>
+
+        <li value="tournament" class="quality_tournament colored_tag">纪念品</li>
+
+        <li value="strange" class="quality_strange colored_tag">StatTrak™</li>
+
+        <li value="unusual" class="quality_unusual colored_tag">★</li>
+
+        <li value="unusual_strange" class="quality_unusual_strange colored_tag">★ StatTrak™</li>
+
+        </ul>
+    </div>
+    <div id="search-exterior" class="w-Select c-Search csgo-Select" style="visibility: visible;" name="exterior">
+        <h3>外观</h3>
+        <i class="icon icon_drop"></i>
+        <ul>
+            <li>不限</li>
+
+        <li value="wearcategory0" class="exterior_wearcategory0 colored_tag">崭新出厂</li>
+
+        <li value="wearcategory1" class="exterior_wearcategory1 colored_tag">略有磨损</li>
+
+        <li value="wearcategory2" class="exterior_wearcategory2 colored_tag">久经沙场</li>
+
+        <li value="wearcategory3" class="exterior_wearcategory3 colored_tag">破损不堪</li>
+
+        <li value="wearcategory4" class="exterior_wearcategory4 colored_tag">战痕累累</li>
+
+        <li value="wearcategoryna" class="exterior_wearcategoryna colored_tag">无涂装</li>
+
+        </ul>
+    </div>
+
+
+
+
+
+    <div class="l_Right">
+        <div class="w-Search" id="j_search">
+            <span>
+                <input class="i_Text" id="search-search" name="search" placeholder="输入物品名称" size="30" type="text">
+            </span>
+            <a href="javascript:;"><i class="icon icon_search"></i>搜索</a>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+$(function(){
+
+    var hash = window.location.hash;
+
+    var query_data = getParams(hash.substring(1));
+    $('.w-Order:first').addClass('w-Order_des');
+    for (name in query_data) {
+        if (!query_data[name]) continue;
+        if (name == 'sort_by') {
+            var f = query_data[name].split('.')[0];
+            $('.w-Order').attr({'value': ''});
+            $('.w-Order').removeClass('w-Order_des');
+            if (query_data[name].indexOf('desc') > 0) {
+                $('.w-Order[name=' + f + ']').attr({'value': 'des'});
+                $('.w-Order[name=' + f + ']').addClass('w-Order_des');
+                $('.w-Order[name=' + f + ']').addClass('selected');
+            } else if (query_data[name].indexOf('asc') > 0) {
+                $('.w-Order[name=' + f + ']').attr({'value': 'asc'});
+                $('.w-Order[name=' + f + ']').addClass('w-Order_asc');
+                $('.w-Order[name=' + f + ']').addClass('selected');
+            }
+        } else if (['page_num'].indexOf(name) < 0){
+            if (name == 'category_group') {
+                Buff.setCompValue('search-category', query_data[name]);
+            } else if (name == 'tag_1_name' || name == 'tag_2_name') {
+                Buff.setCompValue('search-category', name + '=' + query_data[name]);
+            } else {
+                Buff.setCompValue('search-' + name, query_data[name]);
+            }
+        }
+    }
+
+
+    $(document).on('change', '.l_Layout .w-Order', function() {
+        var sort_by = $(this).attr('name');
+        var sort_value = $(this).attr('value');
+        if (sort_by) {
+            if (sort_value == 'des') query_data['sort_by'] = updateSearch('sort_by', sort_by + '.desc');
+            else if (sort_value == 'asc') query_data['sort_by'] =  updateSearch('sort_by', sort_by + '.asc');
+        } else {
+            query_data['sort_by'] = updateSearch('sort_by', '');
+        }
+    });
+
+
+    $(document).on('change', '.w-SelHero', function() {
+        updateSearch('hero', $(this).attr('value'));
+    });
+
+
+    $(document).on('blur change', '.w-Search input', function() {
+        updateSearch('search', $(this).val());
+    });
+
+    $(document).on('change', '.w-Select-Multi', function() {
+        var hash = getParamsFromHash()
+        if(hash.tab === 'bundle') {
+            return
+        }
+        if ($(this).attr('name') == 'item_type'){
+            updateSearchData({'item_type': $(this).attr('value')});
+        } else if ($(this).attr('name') == 'badlanders_category') {
+            var value = $(this).attr('value');
+            var new_search = { tag_1_name: '', tag_2_name: '' };
+            if (value) {
+                var values = value.split('=');
+                new_search[values[0]] = values[1];
+            }
+            updateSearchData(new_search);
+        } else if ($(this).attr('name') != 'rarity') {
+            var category = $(this).attr('value');
+            var group_value = $(this).find('h6[value="' + category + '"]').attr('value');
+            if (group_value) {
+                updateSearchData({'category':'', 'category_group': category});
+            } else {
+                updateSearchData({'category':category, 'category_group': ''});
+            }
+        } else {
+            updateSearchData({'rarity': $(this).attr('value')});
+        }
+
+    });
+
+    $(document).on('change', '.w-SelType', function() {
+        var category = $(this).attr('value');
+        var category_group = $(this).find('p').attr('value');
+        data = {'category': category, 'category_group': ''}
+        if (category == category_group) {
+            data = {'category': '', 'category_group': category}
+        }
+        updateSearchData(data);
+    });
+
+})
+</script>
+
+    </div>
+</div>
+<div class="blank20"></div>
+<script>
+$(function() {
+    if (getParams().search) {
+        $('input[name=search]').val(getParams().search);
+    }
+});
+</script>
+<div class="user-record change">
+
+    <table class="list_tb" width="100%">
+        <tr>
+            <th width="120">饰品</th>
+            <th width="350"></th>
+            <th width="240" class="t_Left tb-Order " value="asc" id="order-by-price">
+                当前在售最低
+                <i class="icon icon_order"></i>
+            </th>
+            <th width="240" class="t_Left">当前求购最高</th>
+            <th width="280" class="t_Left">操作
+                <span class="j_tips_handler" style="display:none;" data-title="  " data-content="将以当前在售最低价购买收藏的该饰品，但由于市场瞬息万变，价格可能存在延迟。购买时请注意。">
+                    <i class="icon icon_qa"></i>
+                </span>
+            </th>
+        </tr>
+
+        <tr>
+
+            <td>
+                <div class="pic-cont">
+                    <a href="/goods/43046">
+                        <img src="https://market.fp.ps.netease.com/file/65f80c9ba1a6e3516a5bb6bcC8pe11Gk05" width="72" height="48">
+                    </a>
+                </div>
+            </td>
+            <td class="t_Left name-cont">
+                <h3><a href="/goods/43046">爪子刀（★） | 致命紫罗兰 (略有磨损)</a></h3>
+
+            </td>
+            <td class="t_Left">
+                <strong class="f_Strong">¥ 5530</strong>
+                <p class="hide-cny c_Gray f_12px">(<span class="custom-currency" data-price="5530" data-type="small" data-original-currency="CNY"  ></span>)</p>
+            </td>
+            <td class="t_Left">
+                <strong class="f_Strong" style="color:#45536C">¥ 5200</strong>
+                <p class="hide-cny c_Gray f_12px">(<span class="custom-currency" data-price="5200" data-type="small" data-original-currency="CNY"  ></span>)</p>
+            </td>
+            <td class="t_Left">
+                <a href="/goods/43046" class="i_Btn i_Btn_mid">前往购买</a>
+                <span class="user-fav on delete-bookmark" data-target-type="2" data-target-id="43046" data-confirm="1"><span>已收藏</span><i class="icon icon_fav"></i></span>
+            </td>
+        </tr>
+
+        <tr>
+
+            <td>
+                <div class="pic-cont">
+                    <a href="/goods/769563">
+                        <img src="https://market.fp.ps.netease.com/file/65f80da874c75a92c62f7f03wyuqxRKa05" width="72" height="48">
+                    </a>
+                </div>
+            </td>
+            <td class="t_Left name-cont">
+                <h3><a href="/goods/769563">锯齿爪刀（★） | 虎牙 (崭新出厂)</a></h3>
+
+            </td>
+            <td class="t_Left">
+                <strong class="f_Strong">¥ 4649</strong>
+                <p class="hide-cny c_Gray f_12px">(<span class="custom-currency" data-price="4649" data-type="small" data-original-currency="CNY"  ></span>)</p>
+            </td>
+            <td class="t_Left">
+                <strong class="f_Strong" style="color:#45536C">¥ 4550</strong>
+                <p class="hide-cny c_Gray f_12px">(<span class="custom-currency" data-price="4550" data-type="small" data-original-currency="CNY"  ></span>)</p>
+            </td>
+            <td class="t_Left">
+                <a href="/goods/769563" class="i_Btn i_Btn_mid">前往购买</a>
+                <span class="user-fav on delete-bookmark" data-target-type="2" data-target-id="769563" data-confirm="1"><span>已收藏</span><i class="icon icon_fav"></i></span>
+            </td>
+        </tr>
+
+    </table>
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      var tips = "";
+      var time_range_tips = ""
+      renderTimeRangeTips($('.pager'), tips, time_range_tips)
+    })
+  </script>
+
+</div>
+<div class="clear"></div>
+
+<script type="text/javascript">
+$(function() {
+    bookmark().init();
+
+    // 搜索
+    $(document).on('change', '.w-Search input', function() {
+        updateSearch('search', $(this).val());
+    });
+    Buff.setCompValue('search-search', getParams().search);
+
+    $(document).on('change', '#order-by-price', function() {
+        if ($(this).hasClass('w-Order_asc')) {
+            updateSearchData({ page_num: 1, sort_by: 'price.asc' });
+        } else {
+            updateSearchData({ page_num: 1, sort_by: 'price.desc' });
+        }
+    });
+});
+</script>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="blank20"></div>
+
+    <script type="text/html" id="pay_content_premium">
+        <div class="plus-card" id="ul-container">
+            <ul>
+                <% for(var i=0; i < premium_package.length; i++ ) { %>
+                <% var li_class = ''; %>
+                <% if(i == 0) { %>
+                    <% var li_class = 'on'; %>
+                <% } %>
+                <% var price = premium_package[i].original_price; %>
+                <% if(premium_package[i].discount_price) { %>
+                    <% var price = premium_package[i].discount_price %>
+                <% } %>
+                <li class="<%= li_class %>" data-price-value="<%= price %>" data-value="<%= premium_package[i].value%>">
+                    <h5><%= premium_package[i].name %></h5>
+                    <p>
+                        <% if(premium_package[i].discount_price) { %>
+                            <strong class="f_Money"><%= premium_package[i].discount_price %></strong>
+                            <del><%= premium_package[i].original_price %></del>
+                        <% } else { %>
+                            <strong class="f_Money"><%= premium_package[i].original_price %></strong>
+                        <% } %>
+                        <%= premium_package[i].option_text %>
+                    </p>
+                    <% if(premium_package[i].discount_rate) { %>
+                    <span class="scope-sales-tag"><%= premium_package[i].discount_rate %></span>
+                    <% } %>
+             </li>
+            <% } %>
+            </ul>
+        </div>
+    </script>
+
+
+
+
+
+<script type="text/html" id="pay_popup_confirm">
+<% var PAY_ICONS = {"1": "epay-other.png", "10": "epay-huabei.png", "18": "epay-wx.png", "3": "epay-alipay.png", "4": "epay-alipay.png", "6": "epay-wx.png", "8": "epay-mixed.png", "9": "epay-mixed.png"}; %>
+<% var EPAY_PAGE = 44; %>
+<div class="popup" id="j_popup_epay" style="width: 600px; display: block; margin-left: -300px; margin-top: -296px; z-index: 503;">
+    <div class="popup-header">
+            <h2>确认支付</h2>
+        </div>
+        <% if (payment_tips) { %>
+        <p class="popup-tip c_Green f_14px"><%- payment_tips %></p>
+        <% } %>
+
+        <a class="popup-close" href="javascript:;">×</a>
+        <div class="popup-cont">
+            <% if (pay_content) { %>
+                <%- pay_content %>
+            <% } else { %>
+            <div class="plus-card" id="ul-container" style="display:none">
+                <ul>
+                    <li class="on" data-price-value="<%= price %>"></li>
+                </ul>
+            </div>
+            <% } %>
+            <div class="epay" onscroll="$('.w-Guide-tip').remove()">
+                <div class="scope-count t_Center c_Gray">应付 <strong class="total_price"><%- formatPriceNormalYuan(price) %></strong><span class="hide-cny c_Gray f_16px">&nbsp;(<span class="total_price_custom"><%- formatPriceNormalCustom(price) %></span>)</span></div>
+                <div class="scope-count t_Center c_Gray balance-not-frozen" style="display:none;">应付 <strong><%- formatPriceNormalYuan(0) %></strong><div class="w-Guide-tip" style="margin: -40px 0 0 -16px;" onclick="$(this).remove();">该付款方式不锁定金额</div><del class="total_price"><%- formatPriceNormalYuan(price) %></del></div>
+                <div class="blank20"></div>
+                <h4 class="c_Gray">选择支付方式</h4>
+                <% var expand_count = 0; %>
+                <% var collapse_count = 0; %>
+                <% for (var i = 0; i < pay_methods.length; i++) { %>
+                    <% var pay_method = pay_methods[i]; %>
+                    <% if (pay_method.collapse != true) { %>
+                        <% expand_count += 1; %>
+                    <% } else { %>
+                        <% collapse_count += 1; %>
+                    <% } %>
+                <% } %>
+                <ul class="pay-method-list" style="height: <%= expand_count * 73 %>px; overflow: hidden;">
+                    <% var selected_pay; %>
+                    <% for (var i = 0; i < pay_methods.length; i++) { %>
+                    <% var pay_method = pay_methods[i]; %>
+                    <% if (pay_method.selected) { selected_pay = pay_method; } %>
+                    <li class="<% if (pay_method.selected) { %>on<% } %> <% if (pay_method.btn_clickable) { %>pay-item<% } else { %>unselectable-pay-item<% } %>" data-value="<%= pay_method.value %>" style="cursor: pointer;" data-method="<%= pay_method%>" data-free_password="<%= pay_method.free_password%>" <% if (pay_method.ejzb_auth) { %> data-ejzb_auth="<%= pay_method.ejzb_auth %>" <% } %>>
+                        <img src="<%= pay_method.icon %>" width="40">
+                        <div>
+                            <h5 class="f_16px"<% if(pay_method.value == EPAY_PAGE ) { %> style="display: flex; align-items: center;" <% } %> ><%= pay_method.name %> <% if (pay_method.balance) { %><span class="c_Blue">¥ <%= pay_method.balance %></span><% } %><% if (pay_method.recommended) { %><span class="tag tag_recommand">推荐</span><% } %></h5>
+                            <% if (pay_method.children) { %>
+                                <% for (var j = 0; j < pay_method.children.choices.length; j++ ) { %>
+                                    <% var choice = pay_method.children.choices[j]; %>
+                                    <p class="c_Gray mix-item" data-value="<%= choice.parent_data.value %>" data-free_password="<%= pay_method.free_password%>" <% if (choice.selected) { %>style="display:none"<% } %>>
+                                        <% if (j == 0) { %>
+                                        <%- pay_method.children.choices[1].description %>
+                                        <% } else { %>
+                                        <%- pay_method.children.choices[0].description %>
+                                        <% } %>
+                                        <a class="a_Black mix-shift" href="javascript:;"><i class="icon icon_change"></i><%= choice.name %></a>
+                                    </p>
+                                <% } %>
+                            <% } else { %>
+                                <% if (pay_method.description_url && !pay_method.error) { %>
+                                    <p <% if(pay_method.description_color){ %> style="color: <%= pay_method.description_color %>" <% } else { %> class="c_Gray" <% } %> description_url="<%= pay_method.description_url %>" description="<%= pay_method.description %>" ></p>
+                                <% } else if (pay_method.description) { %>
+                                    <p <% if(pay_method.description_color){ %> style="color: <%= pay_method.description_color %>" <% } else { %> class="c_Gray" <% } %> ><%= pay_method.description %></p>
+                                <% } else if (pay_method.balance_first_use) { %>
+                                    <p class="c_Gray mix-item"><% if (pay_method.balance_first_use == 'alipay') { %><%= i18n('first_use_alipay_balance') %><% } else { %><%= i18n('first_use_epay_balance') %><% } %><a class="a_Black first-use-shift" href="javascript:;" data-first-use="<%= pay_method.balance_first_use %>"><i class="icon icon_change"></i>切换</a></p>
+                                <% } %>
+                            <% } %>
+                        </div>
+                        <i class="icon icon_checkbox_big"></i>
+                        <div class="scope-line"></div>
+                    </li>
+                    <% } %>
+                </ul>
+                <% if (collapse_count > 0) { %>
+                <p class="t_Center c_Gray" style="height: 73px;"><br><a href="javascript:;" id="j_fold-handler" data-total-height="<%= (collapse_count + expand_count) * 73 %>"><span>展开全部支付方式</span> <i class="icon icon_arr_light"></i></a></p>
+                <% } %>
+            </div>
+            <div class="coupon-container"></div>
+            <div class="t_Center">
+                <% if (selected_pay.error_entry && selected_pay.error_entry.url) { %>
+                    <a href="javascript:;" class="i_Btn pay-btn error-pay" data-url="<%= selected_pay.error_entry.url %>"><%= selected_pay.btn_text %></a>
+                <% } else if (selected_pay.error) { %>
+                    <a href="javascript:;" class="i_Btn pay-btn i_Btn_disabled"><%= selected_pay.btn_text %></a>
+                <% } else { %>
+                    <a href="javascript:;" class="i_Btn pay-btn"><%= selected_pay.btn_text %></a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="coupon_info_pat">
+<% if (items.length > 0) { %>
+<% var valid = []; %>
+<% for (var i = 0; i < items.length; i++) { %>
+    <% if (items[i].can_use) { %>
+        <% valid.push(items[i]); %>
+    <% } %>
+<% } %>
+<p class="c_Gray">选择优惠券</p>
+<div class="blank10"></div>
+<div class="w-Select w-Select-scroll" id="j_select_coupon">
+    <% if (valid.length == 0) { %>
+    <h3>暂无可用</h3>
+    <i class="icon icon_drop"></i>
+    <ul>
+        <li value="">暂无可用</li>
+    </ul>
+    <% } else { %>
+    <h3>不使用优惠券</h3>
+    <i class="icon icon_drop"></i>
+    <ul style="max-height: 100px;">
+        <li value="">不使用优惠券</li>
+        <% for (var i = 0; i < valid.length; i++) { %>
+        <li value="<%= valid[i].id %>"><%= valid[i].name %><span style="margin-left:20px;" class="c_Gray"><%= valid[i].expire_time.message %><%= formatTimestamp(valid[i].expire_time.time, 'YYYY.MM.DD') %></span></li>
+        <% } %>
+    </ul>
+    <% } %>
+</div>
+<div class="blank20"></div>
+<% } %>
+</script>
+
+<script type="text/html" id="pay_detail_pat">
+<div class="popup popup_pay" id="j_popup_pay" style="width:600px;">
+    <div class="popup-header">
+        <h2>购买饰品</h2>
+    </div>
+
+    <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <div class="popup-cont">
+        <div class="popup-good-summary">
+            <table>
+                <tr>
+                    <td>
+                        <div class="iconWrapper"><img src="<%= goods.icon_url %>" height="80"></div>
+                    </td>
+                    <td class="t_Left">
+                        <ul>
+                            <li class="t_Ellipsis" style="width:320px;"><span class="c_Gray f_14px">饰品名称 | </span><span title="<%= goods.name %>"><%= goods.name %></span></li>
+                            <li class="t_Ellipsis" style="width:320px;"><span class="c_Gray f_14px">饰品价格 | </span><span class="f_Strong f_Bold"><%- formatPriceNormalYuan(price) %></span></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3 class="popup-section-title">支付方式</h3>
+            <div class="pay-way offFlex" id="pay_method">
+                <ul>
+                    <% for (var i = 0; i < pay_methods.length; i++) { %>
+                    <% var pay_method = pay_methods[i]; %>
+                    <li data-selected="<%= pay_method.selected %>" value="<%= pay_method.value %>" amount=<%= pay_method.balance %>>
+                        <i class="icon <%= {"1": "icon_select_bank_small", "3": "icon_select_alipay_small", "6": "icon_select_wx_small"}[pay_method.value] %>"></i>
+                        <%= pay_method.name.split('-')[0] %>
+                        <% if (pay_method.name.split('-')[1]) { %>
+                            <span class="f_12px"><%= pay_method.name.split('-')[1] %>
+                        <% } %>
+                        <i class="icon icon_check_small"></i>
+                    </li>
+                    <% } %>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bottom black">
+        <table width="100%" cellspacing="0" cellpadding="0">
+            <tbody>
+                <% for (var i = 0; i < pay_methods.length; i++) { %>
+                <% var pay_method = pay_methods[i]; %>
+                <tr pay_method="<%= pay_method.value %>" style="display: none;">
+                    <% if (!pay_method.error_entry) { %>
+                    <td class="t_Left">
+                        应付 | <span class="f_Strong f_Bold"><%- formatPriceYuan(price) %></span>
+                        <% if (pay_method.error) { %>
+                        <small><%= pay_method.error %></small>
+                        <% } else if (pay_method.balance !== null) { %>
+                        <small>使用<%= pay_method.name %>（<span style="color: #ffffff">¥<%= pay_method.balance %></span>）付款</small>
+                        <% } else { %>
+                        <small>使用<%= pay_method.name %></small>
+                        <% } %>
+                    </td>
+                    <td class="t_Right">
+                        <a href="javascript:;" class="i_Btn i_Btn_main i_Btn_disabled <% if (!pay_method.error) { %>pay-btn<% } %>"><%= pay_method.btn_text %></a>
+                    </td>
+                    <% } else { %>
+                    <td class="t_Left">
+                        <span class="tag tag_error">余额不足</span><%= pay_method.name %> | <span class="f_16px c_Blue f_Bold">¥ <%= pay_method.balance %></span>
+                    </td>
+                    <td class="t_Right">
+                        <a href="javascript:openPageOnNewTab('<%= pay_method.error_entry.url %>')" class="i_Btn i_Btn_main"><%= pay_method.btn_text %></a>
+                    </td>
+                    <% } %>
+                </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+</div>
+</script>
+
+<script type="text/html" id="wx_pay_pat">
+<div class="popup popup_wx" id="j_popup_wx" style="width: 268px;">
+    <a class="popup-close" href="javascript:;">×</a>
+    <div class="popup-cont paying">
+        <div class="t_Center">
+            <p>微信扫码支付</p>
+            <div class="blank30"></div>
+            <p class="f_Strong f_Bold f_28px"><%- formatPriceNormalYuan(price) %></p>
+        </div>
+        <div class="blank10"></div>
+        <div class="popup-qrbox popup-qrbox2" id="wx-pay-qrcode">
+        </div>
+        <div class="blank20"></div>
+        <p class="t_Center f_12px c_Gray">请在&nbsp;<span class="f_Strong"><span class="f_12px" id="pay-remain-time"></span></span>&nbsp;完成支付</p>
+    </div>
+    <div class="popup-cont expired" style="display:none;">
+        <div class="t_Center">
+            <p>微信扫码支付</p>
+        </div>
+        <i class="icon icon_expired"></i>
+        <div class="blank10"></div>
+        <p class="t_Center c_Gray">订单已过期</p>
+    </div>
+    <div class="blank20"></div>
+</div>
+</script>
+
+<script type="text/html" id="manual_plus_pay_success_pat">
+<div class="popup" id="j_popup_payed">
+    <div class="popup-header">
+        <h2>支付成功</h2>
+    </div>
+    <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <div class="popup-cont">
+        <div class="popup-payed t_Center">
+            <h3>请选择发起报价方式</h3>
+            <div><a href="javascript:;" class="i_Btn" id="go_to_app">前往APP发报价</a><span class="tag tag_recommand">推荐</span></div>
+            <p>你发起报价，卖家接受报价；无需收货。</p>
+            <div><a href="javascript:;" class="i_Btn" id="ask_seller">请卖家发报价</a></div>
+            <p>卖家发起报价，需要你收货；未收货将扣2%金额。</p>
+        </div>
+    </div>
+</div>
+</script>
+   <script type="text/html" id="pay_password_pat">
+    <div class="popup" id="j_popup_pay_password" style="width: 268px;">
+        <div class="popup-header">
+            <h2>输入支付密码</h2>
+        </div>
+        <a class="popup-close popup-pay-password-close" href="javascript:;" onclick="Popup.hide()">×</a>
+        <div class="popup-cont">
+            <div class="popup-pay-password t_Center">
+                <h3 class="c_Price"><%= pay_price %></h3>
+                <div class="scope-password" id="j_passwords">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                </div>
+                <div class="scope-password" id="j_password_hidden">
+                    <input type="hidden" maxlength="1">
+                    <input type="hidden" maxlength="1">
+                    <input type="hidden" maxlength="1">
+                    <input type="hidden" maxlength="1">
+                    <input type="hidden" maxlength="1">
+                    <input type="hidden" maxlength="1">
+                </div>
+                <p><a class="a_Gray forget_pay_password" href="javascript:Popup.show('j_popup_password');">忘记支付密码</a><% if(other_pay_way) { %>|<a href="javascript:;" class="other_pay_method">其他支付方式</a><% } %></p>
+            </div>
+
+        </div>
+    </div>
+</script>
+
+<div class="popup" id="j_popup_password" style="width: 360px;">
+    <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <div class="popup-cont">
+        <div class="popup-qrbox">
+            <i class="icon icon_qr"></i>
+            <img src="/static/images/qr-code.png" width="175" height="175" >
+        </div>
+        <p class="t_Center"><span class="c_Gray">请到&nbsp;</span><i class="icon icon_logo"></i>&nbsp;BUFF APP&nbsp;<span class="c_Gray">用户中心修改密码</span></p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        $('a.vip-mark_off').click(function() {
+            Premium.join_plus();
+        });
+    });
+</script>
+
+
+
+
+<input id="steam_key" name="steam_key" type="hidden" value="">
+
+<div class="popup popup_login" id="j_popup_login" style="width:620px;margin-top:0; background-color: #fff;">
+    <a class="popup-close" href="javascript:;" id="close_entry">×</a>
+    <div class="login-cont" style="height: 380px">
+
+        <div class="login-qrcode" id="login_qr_code_content">
+
+    <h2>扫码登录</h2>
+
+    <div class="qrcode-area">
+        <div id="qr_code_box"></div>
+
+
+        <div class="qrcode-status" id="qrcode_invalid" style="display: none;">
+            <i class="icon2x icon_warning_svg"></i>
+            <p>二维码已失效</p>
+            <a href="javascript:;" class="a_Blue" id="refresh_login_qr_code">点击刷新</a>
+        </div>
+
+        <div class="qrcode-status" id="qrcode_scan_finish" style="display: none;">
+            <i class="icon2x icon_success_svg"></i>
+            <p>扫码成功</p>
+            请在手机上确认
+        </div>
+
+        <img src="/static/images/pics/qr-guide.png" width="244" height="452" class="qrcode-guide">
+    </div>
+
+        <div class="qrcode-footer">
+            <p>请使用<a target="_blank" href="https://buff.163.com/app/"> BUFF客户端</a></p>
+            <p>扫描上方二维码登录</p>
+        </div>
+
+</div>
+
+        <div class="pinterest-status" id="j_loadingStatus">
+            <div class="loading-spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="login-frame">
+            <h2 id="j_login-title">登录/注册</h2>
+            <div id="j_login"></div>
+            <div class="login-agreement">
+				<div class="w-Checkbox" value="" id="remember-me">
+                    <span class="" value="y"><i class="login_checkbox"></i>10天内免登录
+				</div>
+			</div>
+        </div>
+    </div>
+    <p id="j_login_other" class="login-other" style="cursor: pointer;" onclick="loginModule.steamLogin()">其它方式登录<a href="javascript:;"><i class="icon icon_steam_small"></i></a></p>
+</div>
+
+<div class="popup popup_login" id="j_popup_invite" style="width:372px;">
+    <a class="popup-close" href="javascript:;">×</a>
+    <div class="login-cont">
+        <h2 id="j_login-title">填写邀请码</h2>
+        <div class="inivte-frame">
+            <div class="blank30"></div>
+            <i class="icon icon_invitebg"></i>
+            <div class="blank10"></div>
+            <p class="c_Gray f_12px">注册成功！请填写邀请码</p>
+            <div class="blank30"></div>
+            <div class="input-cont">
+                <input type="text" class="i_Text" size="28" name="code" oninput="this.value = this.value.toUpperCase()">
+                <span class="error"></span>
+            </div>
+            <div class="blank20"></div>
+            <p>
+                <a href="javascript:;" class="i_Btn i_Btn_long" id="create-invitation">确定</a>
+                <a href="javascript:;" class="i_Btn i_Btn_hollow" id="skip-invitation">跳过，直接进入</a>
+            </p>
+            <div class="blank10"></div>
+        </div>
+    </div>
+</div>
+    <script type="text/html" id="card_detail_pat">
+    <div class="select-list-item" need_verify="<%= card.need_verify %>" card_id="<%= card.id %>" mobile="<%= card.mobile %>" card_number="<%= card.number %>" bank_name="<%= card.bank_name %>" bank_style_id="<%= card.bank_style_id %>" <% if (card.support_withdraw) { %> support_withdraw <% } %>>
+        <% if (card.icon) { %>
+        <i class="icon icon_bank" style="background: center/contain url(<%= card.icon %>);"></i>
+        <% } else { %>
+        <i class="icon icon_bank b_<%= card.bank_style_id %>"></i>
+        <% } %>
+        <span class="bank-name"><%= card.bank_name %></span>
+        <span class="card-number"><%= card.number %></span>
+		<a class="Btn_delete" href="javascript:;" style="float: right;margin-right: 20px">删除</a>
+	</div>
+</script>
+
+<script type="text/html" id="card_bottom_bar">
+    <div class="auth-type-entry">
+        <ul id="auth_type_entry"></ul>
+    </div>
+    <div class="blank20"></div>
+</script>
+
+<script type="text/html" id="zhima_bottom_bar">
+    <div class="auth-type-entry">
+		<ul id="auth_type_entry"></ul>
+	</div>
+    <div class="blank20"></div>
+</script>
+
+<script type="text/html" id="popup_epay_card_pat">
+    <div class="popup popup_card" id="j_popup_card" style="width: 600px">
+        <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+        <div class="popup-header">
+            <h2><% if (for_cert) { %>银行卡实名认证<% } else { %>绑定银行卡<% } %></h2>
+        </div>
+        <% if (for_cert && !realname) { %>
+        <p class="popup-tip c_Green">
+            个人信息用于实名认证，一旦认证不能修改，请认真填写。
+        </p>
+        <% } %>
+        <div class="popup-cont">
+            <table class="l_Tb" width="100%">
+            <tbody>
+            <% if (realname && realname.name && realname.id_card) { %>
+                <tr>
+                    <td  width="100" class="c_Gray t_Right ">真实姓名</td>
+                    <td id="realname" style="text-indent:1em;"><%= realname.name %></td>
+                </tr>
+                <tr>
+                    <td width="100" class="c_Gray t_Right ">身份证</td>
+                    <td id="id_card" style="text-indent:1em;"><%= realname.id_card %></td>
+                </tr>
+            <% } else { %>
+                <tr>
+                    <td width="100" class="c_Gray t_Right ">真实姓名</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="realname" placeholder="请输入真实姓名">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c_Gray t_Right ">身份证号</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="id_card" placeholder="请输入18位身份证号">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+            <% } %>
+                <tr>
+                    <td class="c_Gray t_Right ">银行卡卡号</td>
+                     <td>
+                        <div class="input-cont">
+                            <input type="hidden" name="card_type">
+                            <input type="hidden" name="bank_id">
+                            <input type="text" class="i_Text" size="28" name="card_number" placeholder="当前仅支持储蓄卡">
+                            <span class="error"></span>
+                            <span class="card-name" style="display: none">
+                                <span class="discount-tips"></span>
+                                <i class="icon icon_bank"></i>
+                                <span></span>
+                            </span>
+                            <p class="card-tip" style="display: none">
+                                <span></span>
+                                <span class="card-name" style="display: none">
+                                    <i class="icon icon_bank"></i><span></span>
+                                </span>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="credit_field" style="display: none;">
+                    <td class="c_Gray t_Right ">CVV2</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="" placeholder="卡片背面三位数">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="credit_field" style="display: none">
+                    <td class="c_Gray t_Right ">有效日期</td>
+                    <td>
+                        <div class="input-cont">
+                            <span class="i_Text_error">
+                                <input type="text" class="i_Text i_Time" size="28" name="" placeholder="起始日期">
+                            </span> -
+                            <span>
+                                <input type="text" class="i_Text i_Time" size="28" name="" placeholder="结束日期">
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c_Gray t_Right ">预留手机号</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="mobile" placeholder="请填写银行预留的手机号码">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c_Gray t_Right ">短信验证码</td>
+                    <td>
+                        <div class="input-cont input-cont_captcha">
+                            <input type="text" class="i_Text" size="28" name="authcode" placeholder="请填写验证码">
+                            <input type="hidden" name="card_id">
+                            <span class="error"></span>
+
+                            <a href="javascript:;" class="i_Btn i_Btn_hollow" id="send_authcode">获取验证码</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="bind-tips">
+                    <td></td>
+                    <td>
+                        <div class="bind-tips-detail f_12px"></div>
+                    </td>
+                </tr>
+             </tbody>
+             </table>
+        </div>
+        <p class="c_Error f_12px t_Center">&nbsp;</p>
+        <div class="blank20"></div>
+        <div class="popup-btns">
+            <p class="t_Center">
+                <a href="javascript:;" class="i_Btn i_Btn_main i_Btn_disabled" id="bind_card">确认添加</a>
+            </p>
+            <div class="blank12"></div>
+            <div class="t_Center">
+                <p class="w-Checkbox">
+                    <span class="c_Gray" id="agreement">
+                        <i class="icon icon_checkbox"></i>我同意
+                        <a href="https://epay.163.com/quickpay/quickPayAgreement.jsp" onclick="javascript:cancelBubble(event);" class="f_Underline" target="_blank">《网易支付快捷支付服务协议》</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="blank20"></div>
+        <% if (for_cert) { %>
+            <% if (!realname) { %>
+
+            <% } %>
+        <% } else { %>
+        <div class="popup-foot">
+            <h5>本服务由网易支付提供</h5>
+        </div>
+        <% } %>
+    </div>
+</script>
+
+<script type="text/html" id="popup_ejzb_card_pat">
+    <div class="popup popup_card" id="j_popup_card" style="width: 600px">
+        <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+        <div class="popup-header">
+            <h2><% if (for_cert) { %>银行卡实名认证<% } else { %>绑定银行卡<% } %></h2>
+        </div>
+        <% if (for_cert && !realname) { %>
+        <p class="popup-tip c_Green">
+            个人信息用于实名认证，一旦认证不能修改，请认真填写。
+        </p>
+        <% } %>
+        <div class="popup-cont">
+            <% if (realname && realname.name && realname.id_card) { %>
+            <table class="l_Tb" width="100%">
+                <tr>
+                    <td  width="100" class="c_Gray t_Right ">真实姓名</td>
+                    <td id="realname" style="text-indent:1em;"><%= realname.name %></td>
+                </tr>
+                <tr>
+                    <td width="100" class="c_Gray t_Right ">身份证</td>
+                    <td id="id_card" style="text-indent:1em;"><%= realname.id_card %></td>
+                </tr>
+            <% } else { %>
+            <table class="l_Tb" width="100%">
+                <tr>
+                    <td width="100" class="c_Gray t_Right ">真实姓名</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="realname" placeholder="请输入真实姓名">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c_Gray t_Right ">身份证号</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="id_card" placeholder="请输入18位身份证号">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+            <% } %>
+                <tr>
+                    <td class="c_Gray t_Right ">银行卡卡号</td>
+                     <td>
+                        <div class="input-cont" style="position: relative">
+                            <input type="hidden" name="card_type">
+                            <input type="hidden" name="bank_id">
+                            <input type="text" class="i_Text" size="28" name="card_number" placeholder="当前仅支持储蓄卡">
+                            <a id="manual_select_card" href="javascript:;" class="a_Gray" style="position:absolute;top: 8px;right: 32px;display: none">选择卡类型<i class="icon icon_arr_right_small"></i></a>
+                            <span class="error"></span>
+
+                            <span class="card-name" style="display: none"><a href="javascript:;"><span></span></a></span>
+                            <p class="card-tip" style="display: none">
+                                <span></span><span class="card-name" style="display: none"><i class="icon icon_bank"></i><span></span></span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="credit_field" style="display: none;">
+                    <td class="c_Gray t_Right ">CVV2</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="" placeholder="卡片背面三位数">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="credit_field" style="display: none">
+                    <td class="c_Gray t_Right ">有效日期</td>
+                    <td>
+                        <div class="input-cont">
+                            <span class="i_Text_error">
+                                <input type="text" class="i_Text i_Time" size="28" name="" placeholder="起始日期">
+                            </span> -
+                            <span>
+                                <input type="text" class="i_Text i_Time" size="28" name="" placeholder="结束日期">
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c_Gray t_Right ">预留手机号</td>
+                    <td>
+                        <div class="input-cont">
+                            <input type="text" class="i_Text" size="28" name="mobile" placeholder="请填写银行预留的手机号码">
+                            <span class="error"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c_Gray t_Right ">短信验证码</td>
+                    <td>
+                        <div class="input-cont input-cont_captcha">
+                            <input type="text" class="i_Text" size="28" name="authcode" placeholder="请填写验证码">
+                            <input type="hidden" name="card_id">
+                            <span class="error"></span>
+
+                            <a href="javascript:;" class="i_Btn i_Btn_hollow" id="send_authcode">获取验证码</a>
+                        </div>
+                    </td>
+                </tr>
+             </table>
+        </div>
+        <p class="c_Error f_12px t_Center">&nbsp;</p>
+        <div class="blank20"></div>
+        <div class="popup-btns">
+            <p class="t_Center">
+                <a href="javascript:;" class="i_Btn i_Btn_main" id="bind_card">确认添加</a>
+            </p>
+            <div class="blank12"></div>
+        </div>
+        <div class="blank20"></div>
+        <% if (for_cert) { %>
+            <% if (!realname) { %>
+
+            <% } %>
+        <% }%>
+    </div>
+</script>
+
+<div class="popup" id="j_popup_idcard_inter" style="width: 600px;">
+    <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <div class="popup-header"><h2>实名认证</h2></div>
+    <div class="popup-cont popup-idcard-inter">
+        <h3>选择类型</h3>
+        <ul>
+            <li class="f_Bold" id="j_popup_icon_idcard"><i class="icon2x icon_idcard"></i>我有中国大陆身份证</li>
+            <li class="f_Bold" id="j_popup_icon_passport"><i class="icon2x icon_passport"></i>我没有中国大陆身份证</li>
+        </ul>
+    </div>
+</div>
+
+<div class="popup" id="j_popup_manual_cert" style="width: 600px; display: none; margin-left: -300px; margin-top: -302px; z-index: 503;">
+    <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <div class="popup-header"><h2>人工实名认证</h2></div>
+    <div class="popup-cont">
+        <div class="popup-cert-manual">
+            <div class="scope-uploads">
+                <h4>
+                    <span class="l_Right"><a href="https://buff.163.com/help#N_register_alipay" class="a_Blue c_Blue" target="_blank">查看详细操作流程<i class="icon icon_arr_right"></i></a></span>
+                    请上传支付宝账户实名页面截图
+                </h4>
+                <div class="scope-file">
+                    <div><img src="https://g.fp.ps.netease.com/market/file/637f33a0672a524042fe1d7adikiEAt804"></div>
+                    <div class="scope-upload-btn">
+                        <i class="icon icon_upload"></i>
+                        <input type="file" class="upload_file">
+
+                        <div class="pic_container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scope-uploads">
+                <h4>请上传您的证件照</h4>
+                <div class="scope-file">
+                    <div><img src="https://g.fp.ps.netease.com/market/file/637f32c7052dfe3089674a68h6dsurpw04"></div>
+                    <div class="scope-upload-btn">
+                        <i class="icon icon_upload"></i>
+                        <input type="file" class="upload_file">
+
+                        <div class="pic_container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="t_Right">
+                <a href="javascript:;" class="i_Btn i_Btn_main">提交</a>
+            </p>
+        </div>
+    </div>
+    <div class="blank20"></div>
+</div>
+
+<div class="popup" id="j_popup_ways_inter" style="width: 600px; display: none;">
+	<a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+	<div class="popup-header">
+		<h2>实名认证</h2>
+	</div>
+	<p class="popup-tip c_Green">数据仅用于实名认证</p>
+	<div class="popup-cont popup-ways-inter">
+		<h3>选择认证方式</h3>
+		<ul>
+			<li id="select_icon_zignsec">
+				<i class="icon2x icon_zignsec"></i>
+				<div>
+					<i class="icon2x icon_kyc"></i>
+				</div>
+				<h4 class="f_Bold">身份证认证</h4>
+				<p class="c_Gray f_12px" id="kyc_left_count" kyc_left_count="0"></p>
+			</li>
+			<li id="select_icon_buffmanual">
+				<div>
+					<i class="icon2x icon_buffmanual"></i>
+				</div>
+				<h4 class="f_Bold">人工实名认证</h4>
+
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="popup popup_card" id="j_popup_zhima" style="width: 600px; display: none;">
+	<a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <div class="popup-header"><h2>支付宝身份认证</h2></div>
+    <p class="popup-tip c_Green">个人信息用于实名认证，一旦认证不能修改，请认真填写。</p>
+	<div class="popup-cont">
+		<table class="l_Tb" width="100%">
+			<tr>
+				<td width="100" class="c_Gray t_Right">真实姓名</td>
+				<td>
+					<div class="input-cont">
+						<input type="text" class="i_Text" size="28" name="realname">
+                        <span class="error"></span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="c_Gray t_Right">身份证号</td>
+				<td>
+					<div class="input-cont">
+						<input type="text" class="i_Text" size="28" name="id_card">
+                        <span class="error"></span>
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+	<p class="c_Error f_12px t_Center">&nbsp;</p>
+	<div class="blank20"></div>
+	<div class="popup-btns">
+		<p class="t_Center">
+			<a href="javascript:;" class="i_Btn i_Btn_main i_Btn_disabled">确认</a>
+		</p>
+		<div class="blank12"></div>
+		<div class="t_Center">
+			<p class="w-Checkbox">
+                <span class="c_Gray" id="zhima-cert-allow-check">
+                    <i class="icon icon_checkbox"></i>我同意
+                    <a href="/user-center/asset/zhima_cert/protocol/" onclick="javascript:cancelBubble(event);" class="f_Underline" target="_blank">《认证服务协议》</a>
+                </span>
+            </p>
+		</div>
+	</div>
+	<div class="blank20"></div>
+</div>
+
+<div class="popup" id="j_popup_zhima_cert_qrcode" style="width: 600px; display: none;">
+	<a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+	<div class="popup-header"><h2>支付宝身份认证</h2></div>
+	<p class="popup-tip c_Green">请打开支付宝，使用扫一扫功能扫描二维码，按照提示进行操作。</p>
+	<div class="popup-cont">
+		<div class="popup-qrbox" id="zhima-cert-qrcode">
+		</div>
+	</div>
+	<div class="blank20"></div>
+	<div class="popup-foot popup-foot2">
+		<h5>本服务由支付宝提供</h5>
+	</div>
+</div>
+
+<div class="popup" id="j_popup_authcode">
+    <a class="popup-close" href="javascript:;">×</a>
+    <div class="popup-cont">
+        <h2>输入验证码</h2>
+        <div class="popup-desc">
+            <p>为保障你的资金安全，本次支付需要验证手机短信，请输入银行预留手机号码<span id="mobile"></span>收到的短信验证码。</p>
+            <p class="t_Center">
+                <input type="text" class="i_Text" name="authcode" placeholder="请输入验证码" size="38">
+            </p>
+        </div>
+    </div>
+    <div class="popup-btns">
+        <a href="javascript:;" class="i_Btn i_Btn_sub i_Btn_disabled" id="resend_authcode">获取验证码</a><a href="javascript:;" class="i_Btn i_Btn_main i_Btn_disabled" id="verify_authcode">确定</a>
+    </div>
+</div>
+
+
+<script type="text/html" id="banks_item_list_pat">
+    <% for(var i=0; i < items.length; i++) { %>
+    <% var item = items[i] %>
+    <div class='bank_category'>
+        <div class='initial'><%= item.group %></div>
+        <ul class='banks'>
+            <% for(var j=0; j < item.items.length; j++) { %>
+            <% var bank = item.items[j] %>
+            <li class='bank'>
+                <a href="javascript:" data-id="<%= bank.bank_id %>" data-icon="<%= bank.icon %>" data-name="<%= bank.bank_name %>" data-card_type="<%= bank.card_type %>"><%= bank.bank_name %></a>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+    <% } %>
+    <% if(items.length == 0) { %>
+    <div class='none'>暂无搜索结果</div>
+    <% } %>
+</script>
+
+
+<script type="text/html" id="search_bank_card_pat">
+    <div class="popup" id="j_popup_search_bank_card" style="width: 600px;height: 560px;">
+        <div class="popup-header" style="height: 60px;">
+            <h2>选择卡类型</h2>
+        </div>
+        <div class="popup-back">
+            <span><</span>
+            <span>返回</span>
+        </div>
+        <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+        <div class="popup-cont" style="padding: 0;">
+            <div class="popup-select-bank">
+              <div class="search" style="margin: 20px 48px 0;">
+                  <i class="icon icon_search"></i>
+                  <input type="text" placeholder="搜索银行">
+              </div>
+              <div class="bank_list"><%- banks_item_list %></div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+<div class="popup popup-alipay" id="j_popup_bind_alipay_account" style="width: 600px">
+    <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <div class="popup-header"><h2>绑定支付宝</h2></div>
+    <div class="popup-cont">
+        <p class="tip c_Green t_Center">支付宝信息仅用于提现，请填写你名下的支付宝账号。</p>
+        <div class="blank20"></div>
+        <table class="l_Tb" width="100%">
+            <tr>
+                <td width="72" class="c_Gray t_Right f_14px">支付宝账号</td>
+                <td>
+                    <div class="input-cont">
+                        <input type="text" class="i_Text" size="28" name="alipay_account" placeholder="请输入支付宝账号" style="width: 388px">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div class="blank20"></div>
+        <div class="popup-btns">
+            <p class="t_Center">
+                <a href="javascript:;" class="i_Btn i_Btn_main" id="bind_alipay_account_verify_btn">确认</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+    <script type="text/html" id="alert_pat">
+<div class="popup popup_common <%= config.extraClasses || '' %>" id="<%= popup_id %>" style="<% if (config.width) { %>width: <%= config.width %>px; margin-left: -<%= (config.width / 2).toFixed(0) %>px;<% } %>">
+<div>
+  <% if (!config.hideClose) { %>
+    <a class="popup-close" href="javascript:;">×</a>
+  <% } %>
+  <% if (config.type == 'success') { %>
+    <div class="popup-cont popup_success">
+  <% } else if (config.type == 'error') { %>
+    <div class="popup-cont popup_error">
+  <% } else { %>
+    <div class="popup-cont">
+  <% } %>
+      <h2><% if (config.title) { %><%= config.title %><% } else { %><%= i18n('prompt') %><% } %></h2>
+      <div class="popup-desc" style="white-space: pre-line;"><p><% if (config.safeMessage) { %><%- config.safeMessage %><% } else { %><%= config.message || '' %><% } %></p></div>
+    </div>
+  <div class="popup-btns">
+    <% if (config.rememberDismiss) { %>
+    <div class="w-Checkbox" id="remember-<%= popup_id %>"><span value="1"><i class="icon icon_checkbox"></i><%= i18n('no_longer_prompt') %></span></div><br><br>
+    <% } %>
+    <% if (!config.hideCancel) { %>
+    <a href="#" class="i_Btn i_Btn_sub"><%= config.cancelText || i18n('cancel') %></a>
+    <% } %>
+    <% if (!config.hideConfirm) { %>
+    <a href="#" class="i_Btn i_Btn_main"><%= config.confirmText || i18n('ok') %></a>
+    <% } %>
+  </div>
+</div>
+</script>
+
+
+    <div class="clear"></div>
+
+
+<div class="footer">
+    <div class="guide">
+
+
+
+                <div class="guide-section">
+                    <h3>新手帮助</h3>
+                    <div class="guide-pre"></div>
+                    <ul>
+
+                        <li><a target="_blank" href="/help#before_trade">交易前的准备工作</a></li>
+
+                        <li><a target="_blank" href="/help#steam_network">无法打开Steam页面</a></li>
+
+                        <li><a target="_blank" href="/help#trade_fail">交易报价失败原因汇总</a></li>
+
+                        <li><a target="_blank" href="/help#common_question">其他常见问题</a></li>
+
+                        <li><a target="_blank" href="/help#alipay_question">支付宝常见问题</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="guide-section">
+                    <h3>我是买家</h3>
+                    <div class="guide-pre"></div>
+                    <ul>
+
+                        <li><a target="_blank" href="/help#how_to_counteroffer">如何还价</a></li>
+
+                        <li><a target="_blank" href="/help#how_to_buy_cosmetics">如何购买饰品</a></li>
+
+                        <li><a target="_blank" href="/help#how_to_fetch_cosmetics">如何取回饰品</a></li>
+
+                        <li><a target="_blank" href="/help#common_buy_question">常见购买问题</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="guide-section">
+                    <h3>我是卖家</h3>
+                    <div class="guide-pre"></div>
+                    <ul>
+
+                        <li><a target="_blank" href="/help#how_to_withdraw">如何提现</a></li>
+
+                        <li><a target="_blank" href="/help#how_to_save_cosmetics">如何将饰品存入BUFF背包</a></li>
+
+                        <li><a target="_blank" href="/help#how_to_sell_cosmetics">如何出售饰品</a></li>
+
+                        <li><a target="_blank" href="/help#common_sell_question">常见出售问题</a></li>
+
+                    </ul>
+                </div>
+
+
+        <div class="guide-section">
+            <h3>便捷支付</h3>
+            <div class="guide-pre"></div>
+            <ul>
+                <li><span class="icon icon_footer_alipay"></span>&nbsp&nbsp支付宝支付</li>
+                <li><span class="icon icon_footer_bank"></span>&nbsp&nbsp银行卡支付</li>
+                <li><span class="icon icon_footer_wx"></span>&nbsp&nbsp微信支付</li>
+            </ul>
+        </div>
+        <div class="guide-section guide-section_qr">
+            <h3>手机 BUFF</h3>
+            <div class="guide-pre"></div>
+            <ul>
+                <li><img style="padding: 3px; background: #fff" src="/static/images/qr-code.png" width="75"></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="line"></div>
+    </div>
+    <div id="custom-NIE-copyRight">
+        <style type="text/css">
+.nie-copyright-new-inner{width:1024px;text-align:center;margin:0 auto;padding:0 0 10px;font-size:12px;line-height:20px;}.nie-copyright-new-inner .nie-cn-logo{display:inline-block;vertical-align:middle;height:48px;min-width:300px}.nie-copyright-new-inner .nie-cn-logo a{display:inline-block;vertical-align:top;margin-top: 2px;}.nie-copyright-new-inner .nie-cn-logo a.a0 img{padding-right:0}.nie-copyright-new-inner .nie-cn-logo img{padding-right:15px;padding-top:5px;border: 0;vertical-align:middle;}.nie-copyright-new-inner .nie-cn-nav{display:inline-block;vertical-align:top;position:relative;z-index:1;}.nie-copyright-new-inner .nie-cn-nav i{font-style:normal}.nie-copyright-new-inner .nie-cn-nav i.nie-cn-nav-i2{height:28px;line-height:28px;text-align: left;}.nie-copyright-new-inner .nie-cn-nav a{text-decoration:none}.nie-copyright-new-inner .nie-cn-nav a:hover{text-decoration:underline}.nie-copyright-new-inner .nie-cn-nav .nie-cn-reportcenter{padding-left:18px;font-style: normal;}.nie-copyright-new-inner .nie-cn-nav a.nie-cn-guardianship{display:inline-block;color:#fff;background-color:#610000;position:absolute;z-index:2;right:0;height:26px;line-height:26px;padding:0 3px;top:21px}#NIE-copyRight a.nie-cn-guardianship{color:#fff;}.nie-copyright-new-inner .nie-cn-part2{padding-top:10px;line-height:24px}.nie-copyright-new-inner .nie-cn-part2 a{text-decoration:none;display:inline-block;vertical-align:top}.nie-copyright-new-inner .nie-cn-part2 a:hover{text-decoration:underline}.nie-copyright-new-inner .nie-cn-part2 span{display:inline-block;vertical-align:top;}.nie-cn-part2 a img{vertical-align: top}
+        </style>
+
+        <div class="nie-copyright-new-inner">
+            <span>
+                网易公司版权所有 ©1997-2024
+            </span>
+            <a href="/static/help/privacy_policy.html" target="_blank">网易BUFF隐私政策及儿童个人信息保护规则</a>
+            <a href="https://beian.miit.gov.cn" target="_blank">ICP备案：粤B2-20090191-18</a>
+        </div>
+    </div>
+</div>
+
+<div class="floatbar">
+    <ul>
+        <li>
+            <a href="/app/">
+                <i class="icon icon_bar_app"></i>
+                <p>App</p>
+            </a>
+        </li>
+        <li>
+            <a href="/user-center/bookmark/sell_order?game=csgo&from=nav">
+                <i class="icon icon_bar_fav"></i>
+                <p>收藏</p>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:userProfile().showWechatPopup();">
+                <i class="icon icon_bar_weixin"></i>
+                <p>公众号</p>
+            </a>
+        </li>
+		<li>
+			<a href="javascript:;" id="j_qq-gruop-handler">
+				<i class="icon icon_bar_weibo"></i>
+				<p>微博</p>
+			</a>
+			<div class="fixedtip" id="j_qq-group">
+				<i class="icon icon_arr_big_right"></i>
+				<div class="qqgroup-cont">
+					<ul id="j_bar-qq-list">
+                        <li data-group-name="请关注网易BUFF官方微博" data-group-id="">
+                            <a href="//weibo.com/buff163" target="_blank"><img src="/static/images/weibo-qr.png" width="160" height="160"></a>
+                        </li>
+					</ul>
+				</div>
+				<div id="j_bar-qq-nav"></div>
+				<h3 style="text-align: center;" id="j_qq-group-name" class="f_12px"></h3>
+				<div><span id="j_qq-group-number"></span></div>
+			</div>
+		</li>
+        <li>
+            <a href="/help">
+                <i class="icon icon_bar_help"></i>
+                <p>帮助</p>
+            </a>
+        </li>
+        <li class="feedback-bar">
+            <a href="/user-center/feedback/">
+                <i class="icon icon_bar_feedback"></i>
+                <p>反馈</p>
+            </a>
+            <span class="icon icon_new" style="display: none;"></span>
+        </li>
+
+        <li class="online-service-bar">
+            <a href="javascript:">
+                <i class="icon icon_bar_support--grey"></i>
+                <p>客服</p>
+            </a>
+            <span class="icon icon_new" style="display: none;"></span>
+        </li>
+
+    </ul>
+    <p class="gotop">
+        <a href="javascript:scroll(0,0);"><i class="icon icon_gotop"></i></a>
+    </p>
+</div>
+
+
+<div class="popup popup_weixin" id="j_popup_weixin" style="width:360px;">
+    <a class="popup-close" href="javascript:;" onclick="Popup.hide()">×</a>
+    <h3>微信公众号</h3>
+    <div class="blank20"></div>
+    <p class="c_Gray scope-title">网易BUFF公众号</p>
+    <div class="scope-qr"><img src="/static/images/weixin-qr.png" width="140" height="140"></div>
+    <div class="scope-code">
+        <div id="j_qrcode"></div>
+        <p id="j_progress"></p>
+    </div>
+    <ul>
+        <li>扫描上方二维码，关注 &#34;<span class="c_Blue">网易BUFF</span>&#34; 微信公众号；</li>
+        <li>在公众号内点击绑定账号，输入<span class="c_Blue">手机号和动态验证码</span>，即可绑定BUFF帐号，开通微信交易消息推送服务。</li>
+    </ul>
+</div>
+
+
+
+
+<script>
+    (function (w, d, n, a, j) {
+        w[n] = w[n] || function () {
+            (w[n].a = w[n].a || []).push(arguments);
+        };
+        j = d.createElement('script');
+        j.async = true;
+        j.src ='https://qiyukf.com/script/546b218c2a123f06810af37c39fb49c7.js?hidden=1';
+        d.body.appendChild(j);
+    })(window, document, 'ysf');
+
+    var init_online_service = function() {
+        if (g.user) {
+            sendRequest('/api/feedback/get_online_service_token', {
+                method: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    if (data.code == 'OK') {
+                        var auth_token = data.data.auth_token
+                        var auth_user = data.data.auth_user
+                        var vip_level = data.data.vip_level
+                        if (auth_token) {
+                            ysf('config', {
+                                uid: auth_user,
+                                name: g.user.nickname,
+                                mobile: g.user.mobile,
+                                data: JSON.stringify([
+                                    { key: 'avatar', label: '头像', value: g.user.avatar }
+                                ]),
+                                language: g.locale,
+                                authToken: auth_token,
+                                level: vip_level,
+                                success: function() {
+                                    ysf('open')
+                                }
+                            });
+                        }
+                    } else {
+                        alert(data.error);
+                    }
+                }
+            })
+        } else {
+            ysf('logoff');
+        }
+    }
+
+    ysf('onunread', function(result) {
+        if (result.total > 0) {
+            $('.online-service-bar .icon_new').show();
+        } else {
+            $('.online-service-bar .icon_new').hide();
+        }
+    });
+
+    $('.online-service-bar').click(function() {
+        init_online_service()
+        $(this).find('.icon_new').hide();
+    });
+</script>
+
+</body>
+</html>
