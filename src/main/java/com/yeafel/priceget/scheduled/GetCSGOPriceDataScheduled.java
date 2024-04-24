@@ -58,14 +58,14 @@ public class GetCSGOPriceDataScheduled {
     public void getPricesData() {
         long startTime = System.nanoTime();
 
-//        try {
-//            ThreadLocalRandom rand = ThreadLocalRandom.current();
-//            int val = rand.nextInt(1000000 , 2000000);
-//            System.out.println("爬取记录启动：先睡眠："+val/1000/60+"分钟···············\r\n \r\n \r\n");
-//            Thread.sleep(val);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            ThreadLocalRandom rand = ThreadLocalRandom.current();
+            int val = rand.nextInt(1000000 , 2000000);
+            System.out.println("爬取记录启动：先睡眠："+val/1000/60+"分钟···············\r\n \r\n \r\n");
+            Thread.sleep(val);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
         spiderUtils spiderUtils = new spiderUtils();

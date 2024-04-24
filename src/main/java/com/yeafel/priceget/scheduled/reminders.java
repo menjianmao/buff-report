@@ -39,8 +39,8 @@ public class reminders {
 
         List<TransactRecord> reportList = new ArrayList<>();
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.DATE, -7);
-        calendar.set(Calendar.HOUR_OF_DAY, 7);
+        calendar.add(Calendar.DATE, -1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
         Date startTime = calendar.getTime();
@@ -77,17 +77,14 @@ public class reminders {
                 if (basePrice > priceMin && priceMin > 0) {
                   String goodsNames = goodsName + "：设置底价："+basePrice+";  当前底价："+ priceMin;
                     MailUtil.sendGroupMailGo("***  **---buff收藏武器底价提醒--- *****\t\n", goodsNames);
-
                 }
+                String[] goodsItem = new String[]{"【"+i+"】", goodsName, "Max："+priceMax+"; Min: "+priceMin,"Base: "+basePrice };
+                arrayList.add(goodsItem);
             }
-            String[] goodsItem = new String[]{"【"+i+"】", goodsName, "Max："+priceMax+"; Min: "+priceMin};
-            arrayList.add(goodsItem);
-           mailContent += "【"+i+"】"+goodsName + "：PriceMAX：" + priceMax + ";" +" PriceMin：" + priceMin
-                   +"▁▂▃▄▅▆▇█CS2█▇▆▅▄▃▂▁" ;
-            
-            System.out.println("-------------------------------------------------------");
+
+            System.out.println("------------------------***-------------------------------");
 //            System.out.println(mailContent);
-            System.out.println("--------------------------------------------------------");
+            System.out.println("-------------***-------------------***------------------------");
             i++;
 //     MailUtil.sendGroupMailGo("buff武器降价提醒---" + goodsName, mailContent);
         }
@@ -100,8 +97,8 @@ public class reminders {
         List<TransactRecord> list = transactRecordRepository.findAll();
         List<TransactRecord> reportList = new ArrayList<>();
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.DATE, -7);
-        calendar.set(Calendar.HOUR_OF_DAY, 7);
+        calendar.add(Calendar.DATE, -1);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
         Date startTime = calendar.getTime();

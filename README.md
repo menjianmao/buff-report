@@ -11,7 +11,7 @@ Igxe平台无需任何配置。
 
 ## 使用说明
 找到项目的src --> main -->java -->com.yeafel.priceget -->scheduled 目录，以下3个定时任务，可通过@Scheduled注解修改定时任务表达式。
-例如：  @Scheduled(cron = "0 30 * * * ?")   就是每个小时的第30分钟执行。
+。
 
 
 

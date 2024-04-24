@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS2 商品列表</title>
-    <style>        /* 可选：添加一些基本样式，如调整表格外观 */
+    <title>CS2 收藏武器列表</title>
+    <style>
     table {
         border-collapse: collapse;
         width: 100%;
@@ -19,6 +19,28 @@
         background-color: #f2f2f2;
         font-weight: bold;
     }
+
+    table td:nth-child(1),
+    table th:nth-child(1) {
+        width: 10%;
+    }
+
+
+    table td:nth-child(2),
+    table th:nth-child(2) {
+        width: 55%;
+    }
+
+
+    table td:nth-child(3),
+    table th:nth-child(3) {
+        width: 20%;
+    }
+
+    table td:nth-child(3),
+    table th:nth-child(3) {
+        width: 15%;
+    }
     </style>
 </head>
 <body>
@@ -29,6 +51,7 @@
         <th>序号</th>
         <th>商品名称</th>
         <th>价格范围</th>
+        <th>底价推荐</th>
     </tr>
     </thead>
     {{tbody}}

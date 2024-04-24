@@ -26,7 +26,7 @@ class PriceGetApplicationTests {
     private reminders reminders;
     @Test
     void contextLoads() {
-        getCSGOPriceDataScheduled.getPricesData();
+//        getCSGOPriceDataScheduled.getPricesData();
         reminders.getReminders();
 //        spiderUtils.GetCSOBSpider();
 
@@ -42,7 +42,7 @@ class PriceGetApplicationTests {
 
 
 
-        // 假设您有如下中文字符串作为商品名称
+
 //        String productName = "M9 刺刀（★） | 自由之手（略有磨损）";
         String productName = "沙漠之鹰 | 印花集 (崭新出厂)";
                 // Step 1: 使用URLEncoder.encode()进行URL编码
