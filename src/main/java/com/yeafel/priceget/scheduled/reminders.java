@@ -39,7 +39,7 @@ public class reminders {
 
         List<TransactRecord> reportList = new ArrayList<>();
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.DATE, -1);
+        calendar.add(Calendar.DATE, -2);
         calendar.set(Calendar.HOUR_OF_DAY, 0);
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);

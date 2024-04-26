@@ -3,6 +3,7 @@ package com.yeafel.priceget;
 import com.yeafel.priceget.repository.NeedGetGoodsRepository;
 import com.yeafel.priceget.scheduled.GetC5CSGOPriceDataScheduled;
 import com.yeafel.priceget.scheduled.GetCSGOPriceDataScheduled;
+import com.yeafel.priceget.scheduled.GetIgxeCSGOPriceDataScheduled;
 import com.yeafel.priceget.scheduled.reminders;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,11 +24,14 @@ class PriceGetApplicationTests {
     private NeedGetGoodsRepository needGetGoodsRepository;
 
     @Autowired
+    private GetIgxeCSGOPriceDataScheduled GetIgxeCSGOPriceDataScheduled;
+    @Autowired
     private reminders reminders;
     @Test
     void contextLoads() {
 //        getCSGOPriceDataScheduled.getPricesData();
-        reminders.getReminders();
+//        reminders.getReminders();
+//        GetIgxeCSGOPriceDataScheduled.getPricesData();
 //        spiderUtils.GetCSOBSpider();
 
 

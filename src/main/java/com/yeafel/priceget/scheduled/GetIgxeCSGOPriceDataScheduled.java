@@ -6,9 +6,9 @@ import com.yeafel.priceget.entity.NeedGetGoods;
 import com.yeafel.priceget.entity.TransactRecord;
 import com.yeafel.priceget.repository.NeedGetGoodsRepository;
 import com.yeafel.priceget.repository.TransactRecordRepository;
+import com.yeafel.priceget.utils.MailUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -46,6 +46,7 @@ public class GetIgxeCSGOPriceDataScheduled {
     /**
      * 每个小时第1分钟获取
      */
+    @Scheduled(cron = "0 0 */6 * * ?")
 //    @Scheduled(cron = "0 0 12 * * ?")
 //    @Scheduled(cron = "0/3 * * * * ?")
     public void getPricesData() {
@@ -54,11 +55,17 @@ public class GetIgxeCSGOPriceDataScheduled {
         String[] names = new String[needGetGoodsList.size()];
         int[] goodsIdList = new int[needGetGoodsList.size()];
         for (int i = 0; i < needGetGoodsList.size(); i++) {
-            names[i] = needGetGoodsList.get(i).getGoodsName();
-            goodsIdList[i] = needGetGoodsList.get(i).getIgxeGoodsId();
+           if (needGetGoodsList.get(i).getIgxeGoodsId() != null){
+               names[i] = needGetGoodsList.get(i).getGoodsName();
+               goodsIdList[i] = needGetGoodsList.get(i).getIgxeGoodsId();
+           }
         }
         System.out.println("\r\n \r\n igxe:本次获取任务启动.........................");
+        int mark = 0;
         for (int i = 0; i < goodsIdList.length; i++) {
+            if (goodsIdList[i] == 0){
+                continue;
+            }
             String goodsName = names[i];
             String url = "https://www.igxe.cn/product/get_product_sales_history/730/" + goodsIdList[i];
 
@@ -73,6 +80,7 @@ public class GetIgxeCSGOPriceDataScheduled {
             ResponseEntity<String> result = restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
             JSONObject body = JSONObject.parseObject(result.getBody());
             JSONArray data = body.getJSONArray("data");
+
             for (Object o : data) {
                 JSONObject item = (JSONObject) o;
                 Long goodsId = item.getLong("product_id");
@@ -144,6 +152,7 @@ public class GetIgxeCSGOPriceDataScheduled {
                     try {
                         System.out.println("igxe:已获取一条记录，睡眠2秒···············\r\n \r\n \r\n");
                         Thread.sleep(2000);
+                        mark++;
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -153,6 +162,7 @@ public class GetIgxeCSGOPriceDataScheduled {
                 }
             }
         }
+        MailUtil.sendGroupMailGo("---igxe:新记录入库---:","新增武器出售记录："+mark);
         System.out.println("igxe:本次获取任务终止.........................");
 
     }
