@@ -162,7 +162,8 @@ public class GetIgxeCSGOPriceDataScheduled {
                 }
             }
         }
-        MailUtil.sendGroupMailGo("---igxe:新记录入库---:","新增武器出售记录："+mark);
+        MailUtil mailUtil = new MailUtil();
+        mailUtil.sendGroupMailGo("---igxe:新记录入库---:","新增武器出售记录："+mark);
         System.out.println("igxe:本次获取任务终止.........................");
 
     }

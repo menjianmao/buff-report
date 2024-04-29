@@ -1,8 +1,13 @@
 package com.yeafel.priceget.utils;
 
+import com.yeafel.priceget.entity.EmailProperties;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 import javax.mail.Message;
 import javax.mail.Session;
@@ -17,8 +22,27 @@ import java.util.Properties;
     /**
      * 发送邮件工具类
      */
+
+    @Component
+    @Slf4j
     @ComponentScan
     public class MailUtil {
+
+        @Value(value = "${email.host}")
+        private  String host;
+
+        @Value(value = "${email.userName}")
+        private  String  username;
+
+        @Value(value = "${email.passWord}")
+        private  String password;
+
+        @Value(value = "${email.toEmail}")
+        private  String toEmail;
+
+        @Value(value = "${email.toName}")
+        private  String toName;
+
 
         private final static Logger logger = LoggerFactory.getLogger(MailUtil.class);
 
@@ -108,7 +132,7 @@ import java.util.Properties;
 
 
 
-        public static void sendGroupMailGo(String mailTitle,String mailContent){
+        public void sendGroupMailGo(String mailTitle, String mailContent){
             try {
                 //发送邮件
                 MailUtil.sendGroupMail("smtp.163.com",

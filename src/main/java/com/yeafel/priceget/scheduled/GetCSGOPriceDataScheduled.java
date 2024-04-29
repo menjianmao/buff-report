@@ -56,8 +56,8 @@ public class GetCSGOPriceDataScheduled {
 //    @Scheduled(cron = "0 10 * * * ?")
 //    @Scheduled(cron = "0/3 * * * * ?")
     public void getPricesData() {
-        long startTime = System.nanoTime();
 
+        long inTime = System.currentTimeMillis();
         try {
             ThreadLocalRandom rand = ThreadLocalRandom.current();
             int val = rand.nextInt(1000000 , 2000000);
@@ -95,7 +95,9 @@ public class GetCSGOPriceDataScheduled {
                    needGetGoods.setGoodsName(v);
                    needGetGoodsRepository.save(needGetGoods);
                    System.out.println("存入："+k + " " + v);
-                   MailUtil.sendGroupMailGo("---新增收藏武器提醒---", k+" "+v);
+
+                   MailUtil mailUtil = new MailUtil();
+                   mailUtil.sendGroupMailGo("---新增收藏武器提醒---", k+" "+v);
                }
 
             }
@@ -142,7 +144,9 @@ public class GetCSGOPriceDataScheduled {
 
             String error = body.getString("error");
             if ( error != null ){
-                MailUtil.sendGroupMailGo("---BUFF信息系获取失败---", error );
+
+                MailUtil mailUtil = new MailUtil();
+                mailUtil.sendGroupMailGo("---BUFF信息系获取失败---", error );
                 return;
             }
 
@@ -200,26 +204,29 @@ public class GetCSGOPriceDataScheduled {
                     System.out.println(transactRecord.toString());
                     mark++;
                     System.out.println("存储成功----------------------------------------\r\n \r\n");
-                    //存一条数据睡眠10秒
-                    try {
-                        ThreadLocalRandom rand = ThreadLocalRandom.current();
-                        int val = rand.nextInt(10000 , 20000);
-                        System.out.println("已获取一条记录，睡眠"+val/1000+"···············\r\n \r\n \r\n");
-                        Thread.sleep(val);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+
                 } catch (Exception e) {
                     System.out.println("该记录已经存在，不予存储");
                     System.out.println("-----------------------------------------------\r\n \r\n");
                 }
             }
+
+            //存一组数据睡眠20-50秒
+            try {
+                ThreadLocalRandom rand = ThreadLocalRandom.current();
+                int val = rand.nextInt(20000 , 50000);
+                System.out.println("已获取一条记录，睡眠"+val/1000+"···············\r\n \r\n \r\n");
+                Thread.sleep(val);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
         }
 
-        long endTime = System.nanoTime();
-        long durationInNanos = endTime - startTime;
-        int durationInSeconds = (int) durationInNanos / 1_000_000_000; // 转换为秒
+        long endTime = System.currentTimeMillis();
+        long date = endTime - inTime;
         System.out.println("本次获取任务完成.........................");
-         MailUtil.sendGroupMailGo("---今日BUFF信息获取完成---", "本次共获取"+mark+"条数据,耗时："+durationInSeconds+"s");
+        MailUtil mailUtil = new MailUtil();
+        mailUtil.sendGroupMailGo("---今日BUFF信息获取完成---", "本次共获取"+mark+"条数据,耗时："+date/1000+"s");
     }
 }

@@ -39,7 +39,8 @@ public class spiderUtils {
 
         if (!isSuccess){
 //                推送获取失败信息
-           MailUtil.sendGroupMailGo("获取收藏武器失败","buff获取武器收藏列表失败");
+           MailUtil mailUtil = new MailUtil();
+           mailUtil.sendGroupMailGo("获取收藏武器失败","buff获取武器收藏列表失败");
            return null;
         }
 

@@ -31,7 +31,8 @@ public class reminders {
 
 
 
-    @Scheduled(cron = "30 30 8 * * ?")
+    @Scheduled(cron = "0 45 8 * * ?")
+    @Scheduled(cron = "0 0 19 * * ?")
     public void getReminders() {
 //          查所有关注的武器
         List<TransactRecord> list = transactRecordRepository.findAll();
@@ -76,7 +77,8 @@ public class reminders {
                 double basePrice = priceHashMap.get(k);
                 if (basePrice > priceMin && priceMin > 0) {
                   String goodsNames = goodsName + "：设置底价："+basePrice+";  当前底价："+ priceMin;
-                    MailUtil.sendGroupMailGo("***  **---buff收藏武器底价提醒--- *****\t\n", goodsNames);
+                    MailUtil mailUtil = new MailUtil();
+                    mailUtil.sendGroupMailGo("***  **---buff收藏武器底价提醒--- *****\t\n", goodsNames);
                 }
                 String[] goodsItem = new String[]{"【"+i+"】", goodsName, "Max："+priceMax+"; Min: "+priceMin,"Base: "+basePrice };
                 arrayList.add(goodsItem);
@@ -88,7 +90,8 @@ public class reminders {
             i++;
 //     MailUtil.sendGroupMailGo("buff武器降价提醒---" + goodsName, mailContent);
         }
-            MailUtil.sendGroupMailGo("---buff武器每日提醒---", MailUtil.buildContent(arrayList));
+        MailUtil mailUtil = new MailUtil();
+        mailUtil.sendGroupMailGo("---buff武器每日提醒---", MailUtil.buildContent(arrayList));
 
     }
 
@@ -130,51 +133,12 @@ public class reminders {
         System.out.println(mailContent);
         System.out.println("--------------------------------------------------------");
 
-        MailUtil.sendGroupMailGo(goodsName +": 降价提醒", mailContent);
+        MailUtil mailUtil = new MailUtil();
+        mailUtil.sendGroupMailGo(goodsName +": 降价提醒", mailContent);
     }
 
-//底价提醒
-//    @Scheduled(cron = "30 30 8 * * ?")
-//    public void getPriceReminders() {
-//        List<TransactRecord> list = transactRecordRepository.findAll();
-//        List<TransactRecord> reportList = new ArrayList<>();
-//        Calendar calendar = Calendar.getInstance();
-//        calendar.add(Calendar.DATE, -7);
-//        calendar.set(Calendar.HOUR_OF_DAY, 7);
-//        calendar.set(Calendar.MINUTE, 0);
-//        calendar.set(Calendar.SECOND, 0);
-//        Date startTime = calendar.getTime();
-//
-//        if (list.isEmpty()) {
-//            System.out.println("获取需要提醒的武器为空");
-//            return;
-//        }
-//
-//        HashMap<Long,String> hashMap = new HashMap<>();
-//        for (TransactRecord record : list) {
-//            hashMap.put(record.getGoodsId(),record.getGoodsName());
-//            if (record.getTransactTime().after(startTime)) {
-//                reportList.add(record);
-//            }
-//        }
-//
-//        String mailContent = "";
-//        for (Map.Entry<Long, String> entry : hashMap.entrySet()) {
-//            Long k = entry.getKey();
-//            String v = entry.getValue();
-//            String goodsName = v;
-//            double priceMax = priceUtils.getPriceMax(reportList, k);
-//            double priceMin = priceUtils.getPriceMin(reportList, k);
-//            mailContent += goodsName + "：最近价格记录最大值：" + priceMax + " \t ;最近价格记录最小值：" + priceMin;
-//            mailContent += "-------------------------------------------------------\t\n\t\n";
-////            System.out.println("-------------------------------------------------------\t\n\t\n");
-//            System.out.println(mailContent);
-////            System.out.println("--------------------------------------------------------");
-////            MailUtil.sendGroupMailGo("buff武器降价提醒---" + goodsName, mailContent);
-//        }
-//
-//        MailUtil.sendGroupMailGo("*****---buff收藏武器底价提醒--- *****",mailContent);
-//
-//    }
+
+
+
 
 }

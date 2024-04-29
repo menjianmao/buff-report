@@ -32,6 +32,7 @@ class PriceGetApplicationTests {
 //        getCSGOPriceDataScheduled.getPricesData();
 //        reminders.getReminders();
 //        GetIgxeCSGOPriceDataScheduled.getPricesData();
+//        GetIgxeCSGOPriceDataScheduled.getPricesData();
 //        spiderUtils.GetCSOBSpider();
 
 
