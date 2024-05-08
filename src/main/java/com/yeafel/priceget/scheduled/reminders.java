@@ -31,8 +31,9 @@ public class reminders {
 
 
 
-    @Scheduled(cron = "0 45 8 * * ?")
-    @Scheduled(cron = "0 0 19 * * ?")
+//    @Scheduled(cron = "0 0/2 * * * ? ")
+    @Scheduled(cron = "0 0 8 * * ?")
+    @Scheduled(cron = "0 30 19 * * ?")
     public void getReminders() {
 //          查所有关注的武器
         List<TransactRecord> list = transactRecordRepository.findAll();
@@ -83,9 +84,9 @@ public class reminders {
                 String[] goodsItem = new String[]{"【"+i+"】", goodsName, "Max："+priceMax+"; Min: "+priceMin,"Base: "+basePrice };
                 arrayList.add(goodsItem);
             }
-
+            mailContent = goodsName.toString();
             System.out.println("------------------------***-------------------------------");
-//            System.out.println(mailContent);
+            System.out.println(mailContent);
             System.out.println("-------------***-------------------***------------------------");
             i++;
 //     MailUtil.sendGroupMailGo("buff武器降价提醒---" + goodsName, mailContent);

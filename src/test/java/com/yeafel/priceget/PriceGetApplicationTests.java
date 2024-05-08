@@ -27,10 +27,12 @@ class PriceGetApplicationTests {
     private GetIgxeCSGOPriceDataScheduled GetIgxeCSGOPriceDataScheduled;
     @Autowired
     private reminders reminders;
+
     @Test
     void contextLoads() {
 //        getCSGOPriceDataScheduled.getPricesData();
 //        reminders.getReminders();
+//        getCSGOPriceDataScheduled.getCSGOPriceInDate();
 //        GetIgxeCSGOPriceDataScheduled.getPricesData();
 //        GetIgxeCSGOPriceDataScheduled.getPricesData();
 //        spiderUtils.GetCSOBSpider();

@@ -1,10 +1,8 @@
 package com.yeafel.priceget.utils;
 
-import com.yeafel.priceget.entity.EmailProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
@@ -51,7 +49,7 @@ import java.util.Properties;
 
             //  读取模板文件
             String templateContent = "";
-            try (BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/yeafel/priceget/utils/模板.html"))) {
+            try (BufferedReader reader = new BufferedReader(new FileReader("D:\\Demo\\price-get\\src\\main\\resources\\模板.html"))) {
                 StringBuilder sb = new StringBuilder();
                 String line;
                 while ((line = reader.readLine()) != null) {
@@ -134,14 +132,8 @@ import java.util.Properties;
 
         public void sendGroupMailGo(String mailTitle, String mailContent){
             try {
-                //发送邮件
-                MailUtil.sendGroupMail("smtp.163.com",
-                        "15083727072@163.com",
-                        "King",
-                        "TDVLRHZLTMWELKIP",
-                        "1849904470@qq.com",
-                         mailTitle,
-                         mailContent);
+
+                sendGroupMail(host,username,toName,password,toEmail,mailTitle,mailContent);
 
             }catch (Exception e){
                 e.printStackTrace();

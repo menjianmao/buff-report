@@ -2,9 +2,9 @@ server:
   port: 8081
 spring:
   datasource:
-    url: jdbc:mysql://121.41.2.141:3307/ry?useUnicode=true&characterEncoding=utf-8&useSSL=false&jdbcCompliantTruncation=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
-    username: root
-    password: toor952&
+    url: jdbc:mysql://121.1.1.1:3306/ry?useUnicode=true&characterEncoding=utf-8&useSSL=false&jdbcCompliantTruncation=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+    username: username
+    password: password
     driver-class-name: com.mysql.jdbc.Driver
 
 yeafel:
@@ -15,7 +15,7 @@ yeafel:
 # email 配置
 email:
   host: smtp.163.com
-  userName: 15083727072@163.com
-  passWord: TDVLRHZLTMWELKIP
-  toEmail: 1849904470@qq.com
-  toName: King
+  userName: your_email
+  passWord: your_password
+  toEmail: to_email
+  toName: to_name
